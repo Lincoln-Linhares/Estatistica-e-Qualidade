@@ -42,11 +42,11 @@ p2 <- faithful %>%
 ![image](https://user-images.githubusercontent.com/80591420/111692525-485e6e80-880e-11eb-999c-60fe6a0ea8db.png)
 
 # Scatterplots  <br/>
-O pr&oacute;ximo passo &eacute; estudar a rela&ccedil;&atilde;o entre as 2 vari&aacute;veis quantitativas e explorar se existe rela&ccedil;&atilde;o entre tempo de espera e tempo de erup&ccedil;&atilde;o. Utilizaremos aqui um scatter plot ou gráfico de dispersão:
+O pr&oacute;ximo passo &eacute; estudar a rela&ccedil;&atilde;o entre as 2 vari&aacute;veis quantitativas e explorar se existe rela&ccedil;&atilde;o entre tempo de espera e tempo de erup&ccedil;&atilde;o. Utilizaremos aqui um scatterplot ou gráfico de dispersão:
 
 ![image](https://user-images.githubusercontent.com/80591420/111701055-02f36e80-8819-11eb-9df1-4434b68c2992.png)
 
-Pode-se observar que os dados tendem a se enquadrar em dois grupos: um com tempos de espera e erupção curtos e outro com tempos de espera e erupção longos. especificamente nesse caso nao há overplotting, os pontos encontram-se separados e o padrão formado é claro. Para refinar a visualização e auxiliar na identificação de tendência podemos adicionar uma regressão linear: 
+Pode-se observar que os dados se enquadram em dois grupos: um com tempos de espera e erupção curtos e outro com tempos de espera e erupção longos. especificamente nesse caso nao há overplotting, os pontos encontram-se separados e o padrão formado é claro. Para refinar a visualização e auxiliar na identificação de tendência podemos adicionar uma regressão linear: 
 ```
 ggplot(faithful, aes(x = waiting, y = eruptions)) +
 geom_point() +
@@ -95,11 +95,11 @@ annual_income_ppp average_wk_hrs  education_months  family_size
  3rd Qu.: 90112    3rd Qu.:50.00   3rd Qu.:207.0    3rd Qu.: 4.00  
  Max.   :119564    Max.   :55.00   Max.   :280.0    Max.   :10.00  
  ```
-Também podemos plotar nossas quatro variáveis de teste em pares para ver quaisquer relações de interesse, conforme mostrado na Figura:
+Também podemos plotar nossas quatro variáveis teste em pares para ver quaisquer relações de interesse, conforme mostrado na Figura:
 
 ![image](https://user-images.githubusercontent.com/80591420/111870628-97b6b300-8964-11eb-997b-03d7c015bc58.png)
 
-Na diagonal principal podemos ver as distribuições dos dados em cada coluna, gráficos de dispersão e estatísticas de correlação fora da diagonal. Por exemplo, observa-se forte correlação entre education_months e annual_income_ppp.
+Na diagonal principal podemos ver as distribuições dos dados em colunas, e gráficos de dispersão e estatísticas de correlação fora da diagonal. Por exemplo, observa-se forte correlação entre education_months e annual_income_ppp.
 Para visualizar nossa abordagem e melhorar nossa intuição, iniciaremos com uma regressão linear simples, que é o caso em que existe apenas uma única variável de entrada e variável de resultado.  <br/>
 
 
