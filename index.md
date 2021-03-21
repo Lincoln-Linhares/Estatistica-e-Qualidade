@@ -139,6 +139,9 @@ Outro ponto importante é R² = 0.579 e o valor de p > 0.05 indicando que ```edu
 
 # Six Sigma
 ```
+Gráfico de Pareto
+
+É umma variação importante do histograma para dados categóricos. Esse gráfico é comumente empregado nos esforços de melhoria de qualidade, em que as categorias geralmente representam tipos diferentes de defeitos, modos de falha ou problemas nos produtos/processos. As categorias são ordenadas de modo que a categoria com a maior frequência ficará à esquerda, seguida pela categoria com a segunda maior frequência, e assim por diante. Esses diagramas exibem a “Lei de Pareto”; ou seja, a maioria dos defeitos pode ser creditada apenas a poucas categorias. Verifique as informações referentes a defeitos encontrados em embalagens:
 
 ## Registros de defeitos encontrados em embalgens
 -------------------------------
@@ -174,7 +177,6 @@ Estatisticas descritivas utilizadas na construção do gráfico de Pareto  <br/>
 defeitos mais observados. Portanto, esses dois defeitos devem ser priorizados, pois, conjuntamente, perfazem aproximadamente 74, 36% das falhas. Logo, validade incorreta poderia ser incluída, com os três tipos de defeitos respondendo por cerca de 85,03% das falhas totais.
 
 
-Francisco, L., A.r., D., H., F., e L., F. (2013), Controle Estatístico de Processos - Uma Abordagem Prática para Cursos de Engenharia e Administração, Grupo GEN
 
 
 
