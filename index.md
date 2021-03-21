@@ -135,7 +135,10 @@ Residuals        2590 474463930178    183190707
 ```
 Isso nos diz que o modelo de melhor ajuste é aquele que minimiza os quadrados médios dos resíduos é 
 y= 401.4x + 4254.6. Em outras palavras, pode-se esperar um valor de 4254.6 e que cada ponto adicional a ```education_months```   aumentará ```annual_income_ppp``` em 401.4
-Outro ponto importante é R² = 0.579 e o valor de p > 0.05 indicando que ```education_months``` explica 58% do valor de ```annual_income_ppp```
+Outro ponto importante é R² = 0.579 e o valor de p > 0.05 indicando que ```education_months``` explica 58% do valor de ```annual_income_ppp```  <br/>
+
+# Six Sigma
+
 
 
 
