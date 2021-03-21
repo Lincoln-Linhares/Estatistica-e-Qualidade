@@ -141,16 +141,19 @@ Outro ponto importante é R² = 0.579 e o valor de p > 0.05 indicando que ```edu
 ```
 
 ## Registros de defeitos encontrados em embalgens
----------------------------------------------------
-Descrição do defeito                  Frequência
-embalagem mal selada	                 322 
-embalagem rasgada	                 21
-embalagem com pequenos furos          145 
-data de validade em falta	          67 
-embalagem com as cores esborratadas   10 
-embalagem com a barra partida	   53
-outros	                               10
-----------------------------------------------------
+-------------------------------
+        Defeito     |Frequência| 
+|:------------------|---------:|
+|Mal selada         |       322|      
+|Pequenos furos     |       145|       
+|Validade incorreta |        67|    
+|Embalagem partida  |        53|       
+|Embalagem rasgada  |        21|       
+|Cores borradas     |        10|       
+|Outros             |        10|      
+-------------------------------
+Fonte: Francisco, L., A.r., D., H., F., e L., F. (2013), Controle Estatístico de Processos - Uma Abordagem Prática para Cursos de Engenharia e Administração, Grupo GEN
+
 ```
 
 ![image](https://user-images.githubusercontent.com/80591420/111908878-aa4eec00-8a39-11eb-97aa-5572c9eb584f.png)
