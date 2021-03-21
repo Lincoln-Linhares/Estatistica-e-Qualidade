@@ -138,6 +138,21 @@ y= 401.4x + 4254.6. Em outras palavras, pode-se esperar um valor de 4254.6 e que
 Outro ponto importante é R² = 0.579 e o valor de p > 0.05 indicando que ```education_months``` explica 58% do valor de ```annual_income_ppp```  <br/>
 
 # Six Sigma
+```
+
+## Registros de defeitos encontrados em embalgens
+---------------------------------------------------
+Descrição do defeito                  Frequência
+embalagem mal selada	                 322 
+embalagem rasgada	                 21
+embalagem com pequenos furos          145 
+data de validade em falta	          67 
+embalagem com as cores esborratadas   10 
+embalagem com a barra partida	   53
+outros	                               10
+----------------------------------------------------
+```
+
 ![image](https://user-images.githubusercontent.com/80591420/111908878-aa4eec00-8a39-11eb-97aa-5572c9eb584f.png)
 
 Estatisticas descritivas utilizadas na construção do gráfico de Pareto  <br/>
@@ -154,6 +169,9 @@ Estatisticas descritivas utilizadas na construção do gráfico de Pareto  <br/>
  ```
  O gráfico de Pareto resultante indica que mal selada e Pequenos furos são os 
 defeitos mais observados. Portanto, esses dois defeitos devem ser priorizados, pois, conjuntamente, perfazem aproximadamente 74, 36% das falhas. Logo, Validade incorreta poderia ser incluída, com os três tipos de defeitos respondendo por cerca de 85,03% das falhas totais.
+
+
+Francisco, L., A.r., D., H., F., e L., F. (2013), Controle Estatístico de Processos - Uma Abordagem Prática para Cursos de Engenharia e Administração, Grupo GEN
 
 
 
