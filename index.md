@@ -141,7 +141,7 @@ Outro ponto importante é R² = 0.579 e o valor de p > 0.05 indicando que ```edu
 
 ### Gráfico de Pareto
 
-É umma variação importante do histograma para dados categóricos. Esse gráfico é comumente empregado nos esforços de melhoria de qualidade, em que as categorias geralmente representam tipos diferentes de defeitos, modos de falha ou problemas nos produtos/processos. As categorias são ordenadas de modo que a categoria com a maior frequência ficará à esquerda, seguida pela categoria com a segunda maior frequência, e assim por diante. Esses diagramas exibem a “Lei de Pareto”; ou seja, a maioria dos defeitos pode ser creditada apenas a poucas categorias. Verifique as informações referentes a defeitos encontrados em embalagens:
+É uma variação importante do histograma para dados categóricos. Esse gráfico é comumente empregado nos esforços de melhoria de qualidade, em que as categorias geralmente representam tipos diferentes de defeitos, modos de falha ou problemas nos produtos/processos. As categorias são ordenadas de modo que a categoria com a maior frequência ficará à esquerda, seguida pela categoria com a segunda maior frequência, e assim por diante. Esses diagramas exibem a “Lei de Pareto”; ou seja, a maioria dos defeitos pode ser creditada apenas a poucas categorias. Verifique as informações referentes a defeitos encontrados em embalagens:
 ```
 
 ## Registros de defeitos encontrados em embalgens
