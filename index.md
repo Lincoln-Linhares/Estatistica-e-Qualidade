@@ -152,6 +152,10 @@ Estatisticas descritivas utilizadas na construção do gráfico de Pareto  <br/>
 |Cores borradas     |        10|       618|   1.592357|     98.40764|
 |Outros             |        10|       628|   1.592357|    100.00000|
  ```
+ O gráfico de Pareto resultante indica que mal selada e Pequenos furos são os 
+defeitos mais observados. Portanto, esses dois defeitos devem ser priorizados, pois, conjuntamente, perfazem aproximadamente 74, 36% das falhas. Logo, Validade incorreta poderia ser incluída, com os três tipos de defeitos respondendo por cerca de 85,03% das falhas totais.
+
+
 
 
 
