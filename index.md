@@ -138,7 +138,8 @@ y= 401.4x + 4254.6. Em outras palavras, pode-se esperar um valor de 4254.6 e que
 Outro ponto importante é R² = 0.579 e o valor de p > 0.05 indicando que ```education_months``` explica 58% do valor de ```annual_income_ppp```  <br/>
 
 # Six Sigma
-![image](https://user-images.githubusercontent.com/80591420/111908820-783d8a00-8a39-11eb-879e-4be3f48e3cc6.png)
+![image](https://user-images.githubusercontent.com/80591420/111908878-aa4eec00-8a39-11eb-97aa-5572c9eb584f.png)
+
 
 
 
