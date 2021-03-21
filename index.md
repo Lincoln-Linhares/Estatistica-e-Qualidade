@@ -150,7 +150,7 @@ Estatisticas descritivas utilizadas na construção do gráfico de Pareto  <br/>
 |Embalagem rasgada  |        21|       608|   3.343949|     96.81529|
 |Cores borradas     |        10|       618|   1.592357|     98.40764|
 |Outros             |        10|       628|   1.592357|    100.00000|
-> ```
+ ```
 
 
 
