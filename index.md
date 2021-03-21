@@ -139,6 +139,7 @@ Outro ponto importante é R² = 0.579 e o valor de p > 0.05 indicando que ```edu
 
 # Six Sigma
 ![image](https://user-images.githubusercontent.com/80591420/111908878-aa4eec00-8a39-11eb-97aa-5572c9eb584f.png)
+
 Estatisticas descritivas utilizadas na construção do gráfico de Pareto  <br/>
 ```
                    | Frequency| Cum.Freq.| Percentage| Cum.Percent.|
