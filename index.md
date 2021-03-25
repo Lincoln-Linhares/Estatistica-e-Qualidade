@@ -190,14 +190,14 @@ Para melhorar os processos de soldagem de uma empresa fictícia, uma comissão, 
 7. Método de carregamento da placa  <br/>
 
 ```
-library(qcc)
-cause.and.effect(cause=list(Medicao=c("Temperatura", "Altura da pasta", "Densidade"),
-                            Material=c("Solda contaminada", "Soldabilidade", "Orientação"),
-                            Mao_de_obra=c("Alinhamento da palheta", "Carregamento da palheta"),
-                            Meio_Ambiente=c("Temperatura"),
-                            Metodo=c("Quantidade", "Densidade relativa", "Tipo"),
-                            Maquina=c("Pressão do rolo", "Velocidade do rolo", "Ângulo do rolo")),
-                 effect="Defeitos de soldagem")
+library(qcc)  <br/>
+cause.and.effect(cause=list(Medicao=c("Temperatura", "Altura da pasta", "Densidade"),  <br/>
+                            Material=c("Solda contaminada", "Soldabilidade", "Orientação"),  <br/>
+                            Mao_de_obra=c("Alinhamento da palheta", "Carregamento da palheta"),  <br/>
+                            Meio_Ambiente=c("Temperatura"),  <br/>
+                            Metodo=c("Quantidade", "Densidade relativa", "Tipo"),  <br/>
+                            Maquina=c("Pressão do rolo", "Velocidade do rolo", "Ângulo do rolo")),  <br/>
+                 effect="Defeitos de soldagem")  <br/>
                  ```
   ![image](https://user-images.githubusercontent.com/80591420/112541664-6b4ecc80-8d92-11eb-8954-52201f9e4b25.png)
                
