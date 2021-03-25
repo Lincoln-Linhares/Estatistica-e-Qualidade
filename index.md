@@ -199,6 +199,8 @@ cause.and.effect(cause=list(Medicao=c("Temperatura", "Altura da pasta", "Densida
                             Maquina=c("Pressão do rolo", "Velocidade do rolo", "Ângulo do rolo")),
                  effect="Defeitos de soldagem")
                  ```
+                 ![image](https://user-images.githubusercontent.com/80591420/112541235-ebc0fd80-8d91-11eb-9d4e-4d8ca1c65eb3.png)
+
 
 
 
