@@ -177,6 +177,25 @@ Estatisticas descritivas utilizadas na construção do gráfico de Pareto  <br/>
  O gráfico de Pareto resultante indica que embalagem mal selada e com pequenos furos são os 
 defeitos mais observados. Portanto, esses dois defeitos devem ser priorizados, pois, conjuntamente, perfazem aproximadamente 74, 36% das falhas. Logo, validade incorreta poderia ser incluída, com os três tipos de defeitos respondendo por cerca de 85,03% das falhas totais.
 
+## Diagrama de causa e efeito em R 
+
+Para melhorar os processos de soldagem de uma empresa fictícia, uma comissão, composta pelas partes interessadas foi formada. Essas pessoas conduzem uma discussão (brainstorming) e produzem um diagrama de causa e efeito. Como resultado da sessão de discussão, a comissão identifica, por tentativa, as seguintes variáveis como potenciais influenciadoras:
+
+1.Densidade de fluxo  <br/>
+
+2.Temperatura de refluxo  <br/>
+
+3.Velocidade do rolo  <br/>
+
+4.Ângulo do rolo  <br/>
+
+5.Altura da pasta  <br/>
+
+6.Pressão do rolo  <br/>
+
+7.Método de carregamento da placa  <br/>
+
+
 
 
 
