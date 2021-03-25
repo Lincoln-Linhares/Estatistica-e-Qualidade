@@ -181,19 +181,27 @@ defeitos mais observados. Portanto, esses dois defeitos devem ser priorizados, p
 
 Para melhorar os processos de soldagem de uma empresa fictícia, uma comissão, composta pelas partes interessadas foi formada. Essas pessoas conduzem uma discussão (brainstorming) e produzem um diagrama de causa e efeito. Como resultado da sessão de discussão, a comissão identifica, por tentativa, as seguintes variáveis como potenciais influenciadoras:
 
-1.Densidade de fluxo  <br/>
+1. Densidade de fluxo  <br/>
+2. Temperatura de refluxo  <br/>
+3. Velocidade do rolo  <br/>
+4. Ângulo do rolo  <br/>
+5. Altura da pasta  <br/>
+6. Pressão do rolo  <br/>
+7. Método de carregamento da placa  <br/>
 
-2.Temperatura de refluxo  <br/>
+```
+library(qcc)
+cause.and.effect(cause=list(Medicao=c("Temperatura", "Altura da pasta", "Densidade"),
+                            Material=c("Solda contaminada", "Soldabilidade", "Orientação"),
+                            Mao_de_obra=c("Alinhamento da palheta", "Carregamento da palheta"),
+                            Meio_Ambiente=c("Temperatura"),
+                            Metodo=c("Quantidade", "Densidade relativa", "Tipo"),
+                            Maquina=c("Pressão do rolo", "Velocidade do rolo", "Ângulo do rolo")),
+                 effect="Defeitos de soldagem")
+                 ```
 
-3.Velocidade do rolo  <br/>
 
-4.Ângulo do rolo  <br/>
 
-5.Altura da pasta  <br/>
-
-6.Pressão do rolo  <br/>
-
-7.Método de carregamento da placa  <br/>
 
 
 
