@@ -198,7 +198,7 @@ cause.and.effect(cause=list(Medicao=c("Temperatura", "Altura da pasta", "Densida
                             Metodo=c("Quantidade", "Densidade relativa", "Tipo"),  
                             Maquina=c("Pressão do rolo", "Velocidade do rolo", "Ângulo do rolo")), 
                             effect="Defeitos de soldagem")  
-                 ```
+  ```
                  
                  
   ![image](https://user-images.githubusercontent.com/80591420/112541664-6b4ecc80-8d92-11eb-8954-52201f9e4b25.png)
@@ -215,7 +215,8 @@ library("SnowballC")  <br/>
 library("wordcloud")  <br/>
 library("RColorBrewer")  <br/>
 library(rio)  
-````
+
+```
 text <- readLines(file.choose())
 mandela <- text
 docs <- Corpus(VectorSource(mandela))
@@ -237,7 +238,7 @@ set.seed(1337)
 wordcloud(words = d$word, freq = d$freq, min.freq = 1,
           max.words=200, random.order=FALSE, rot.per=0.47, 
           colors= "black")
-          ```
+  ```
 ![image](https://user-images.githubusercontent.com/80591420/112725406-d7e2dc00-8ef6-11eb-85fb-5f897801cfc5.png)
 
 
