@@ -192,12 +192,12 @@ Para melhorar os processos de soldagem de uma empresa fictícia, uma comissão c
 ```
 library(qcc)  
 cause.and.effect(cause=list(Medicao=c("Temperatura", "Altura da pasta", "Densidade"), 
-Material=c("Solda contaminada", "Soldabilidade", "Orientação"),  
+                            Material=c("Solda contaminada", "Soldabilidade", "Orientação"),  
                             Mao_de_obra=c("Alinhamento da palheta", "Carregamento da palheta"), 
                             Meio_Ambiente=c("Temperatura"),  
                             Metodo=c("Quantidade", "Densidade relativa", "Tipo"),  
                             Maquina=c("Pressão do rolo", "Velocidade do rolo", "Ângulo do rolo")), 
-                 effect="Defeitos de soldagem")  
+                            effect="Defeitos de soldagem")  
                  ```
                  
                  
@@ -206,6 +206,10 @@ Material=c("Solda contaminada", "Soldabilidade", "Orientação"),
   ```
   # Nuvem de palavras
   
+Os métodos de mineração de texto nos permitem destacar as palavras-chave usadas com mais frequência em um parágrafo de texto. Pode-se criar uma nuvem de palavras , também conhecida como nuvem de texto ou nuvem de tag , que é uma representação visual de dados de texto.
+
+O procedimento de criação de nuvens de palavras é simples em R. O pacote text mining ( tm ) e o pacote gerador de nuvem de palavras ( wordcloud ) estão disponíveis em R para nos ajudar a analisar textos e visualizar rapidamente as palavras-chave como uma nuvem de palavras.
+
   
 
                
