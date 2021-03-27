@@ -203,11 +203,10 @@ cause.and.effect(cause=list(Medicao=c("Temperatura", "Altura da pasta", "Densida
                  
   ![image](https://user-images.githubusercontent.com/80591420/112541664-6b4ecc80-8d92-11eb-8954-52201f9e4b25.png)
   
-  ```
-  # Nuvem de palavras
+  
+ # Nuvem de palavras
   
 Os métodos de mineração de texto nos permitem destacar as palavras-chave usadas com mais frequência em um parágrafo de texto. Pode-se criar uma nuvem de palavras , também conhecida como nuvem de texto ou nuvem de tag , que é uma representação visual dos dados.
-
 O procedimento de criação de nuvens de palavras é simples em R. O pacote text mining ( tm ) e o pacote gerador de nuvem de palavras ( wordcloud ) estão disponíveis em R para nos ajudar a analisar textos e visualizar rapidamente as palavras-chave como uma nuvem de palavras.
 
 library("tm")  <br/>
@@ -238,6 +237,7 @@ set.seed(1337)
 wordcloud(words = d$word, freq = d$freq, min.freq = 1,
           max.words=200, random.order=FALSE, rot.per=0.47, 
           colors= "black")
+```
 ![image](https://user-images.githubusercontent.com/80591420/112725406-d7e2dc00-8ef6-11eb-85fb-5f897801cfc5.png)
 
 
