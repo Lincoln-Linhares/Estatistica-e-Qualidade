@@ -210,6 +210,39 @@ Os métodos de mineração de texto nos permitem destacar as palavras-chave usad
 
 O procedimento de criação de nuvens de palavras é simples em R. O pacote text mining ( tm ) e o pacote gerador de nuvem de palavras ( wordcloud ) estão disponíveis em R para nos ajudar a analisar textos e visualizar rapidamente as palavras-chave como uma nuvem de palavras.
 
+library("tm")
+library("SnowballC")
+library("wordcloud")
+library("RColorBrewer")
+library(rio)
+````
+text <- readLines(file.choose())
+mandela <- text
+docs <- Corpus(VectorSource(mandela))
+toSpace <- content_transformer(function (x , pattern ) gsub(pattern, " ", x))
+docs <- tm_map(docs, toSpace, "/")
+docs <- tm_map(docs, toSpace, "\\|")
+docs <- tm_map(docs, content_transformer(tolower))
+docs <- tm_map(docs, removeNumbers)
+docs <- tm_map(docs, removeWords, stopwords("english"))
+docs <- tm_map(docs, removeWords, c("no", "yes")
+docs <- tm_map(docs, removePunctuation)
+docs <- tm_map(docs, stripWhitespace)
+dtm <- TermDocumentMatrix(docs)
+m <- as.matrix(dtm)
+v <- sort(rowSums(m),decreasing=TRUE)
+d <- data.frame(word = names(v),freq=v)
+head(d, 10)
+set.seed(1337)
+wordcloud(words = d$word, freq = d$freq, min.freq = 1,
+          max.words=200, random.order=FALSE, rot.per=0.47, 
+          colors= "black")
+          ![image](https://user-images.githubusercontent.com/80591420/112725406-d7e2dc00-8ef6-11eb-85fb-5f897801cfc5.png)
+
+
+
+
+
   
 
                
