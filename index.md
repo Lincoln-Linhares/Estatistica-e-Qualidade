@@ -46,7 +46,7 @@ O pr&oacute;ximo passo &eacute; estudar a rela&ccedil;&atilde;o entre as 2 vari&
 
 ![image](https://user-images.githubusercontent.com/80591420/111701055-02f36e80-8819-11eb-9df1-4434b68c2992.png)
 
-Pode-se observar que os dados se enquadram em dois grupos: um com tempos de espera e erupção curtos e outro com tempos de espera e erupção longos. especificamente nesse caso nao há overplotting, os pontos encontram-se separados e o padrão formado é claro. Para refinar a visualização e auxiliar na identificação de tendência podemos adicionar uma regressão linear: 
+Pode-se observar que os dados se enquadram em dois grupos: um com tempos de espera e erupção curtos e outro com tempos de espera e erupção longos. Especificamente nesse caso não há overplotting, os pontos encontram-se separados e o padrão formado é claro. Para refinar a visualização e auxiliar na identificação de tendência podemos adicionar uma regressão linear: 
 ```
 ggplot(faithful, aes(x = waiting, y = eruptions)) +
 geom_point() +
@@ -58,7 +58,7 @@ geom_smooth(method = "lm", col = 'blue')
   
 # Regressão Linear
 Regressão é utilizada para analisar relações entre variáveis contínuas. Em sua forma mais básica, descreve a relação linear entre uma variável preditora, representada graficamente no eixo X, e uma variável resposta, representada no eixo Y.
-Para tornar a discussão mais palpável utilizarmos O conjunto de dados peopleanalyticsdata: :sociological_data que representam uma amostra de informações obtidas de indivíduos que participaram de um estudo de pesquisa global e contém os seguintes campos  <br/>
+Para tornar a discussão mais palpável utilizaremos o conjunto de dados peopleanalyticsdata: :sociological_data que representam uma amostra de informações obtidas de indivíduos que participaram de um estudo de pesquisa global e contém os seguintes campos  <br/>
 *````annual_income_ppp:```` A renda anual do indivíduo em dólares americanos PPP ajustados  <br/>
 *```average_wk_horas:``` O número médio de horas semanais trabalhadas pelo indivíduo  <br/>
 *````education_months:````O número total de meses gastos pelo indivíduo na educação formal primária, secundária e terciária  <br/>
@@ -179,7 +179,7 @@ defeitos mais observados. Portanto, esses dois defeitos devem ser priorizados, p
 
 ## Diagrama de causa e efeito em R 
 
-Para melhorar os processos de soldagem de uma empresa fictícia, uma comissão, composta pelas partes interessadas foi formada. Essas pessoas conduzem uma discussão (brainstorming) e produzem um diagrama de causa e efeito. Como resultado da sessão de discussão, a comissão identifica, por tentativa, as seguintes variáveis como potenciais influenciadoras:
+Para melhorar os processos de soldagem de uma empresa fictícia, uma comissão composta pelas partes interessadas foi formada. Essas pessoas conduzem uma discussão (brainstorming) e produzem um diagrama de causa e efeito. Como resultado da sessão de discussão, a comissão identifica, por tentativa, as seguintes variáveis como potenciais influenciadoras:
 
 1. Densidade de fluxo  <br/>
 2. Temperatura de refluxo  <br/>
