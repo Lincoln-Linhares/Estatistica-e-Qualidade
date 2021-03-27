@@ -254,6 +254,16 @@ wordcloud(words = d$word, freq = d$freq, min.freq = 1,
 |also        |also        |    5|
 |century     |century     |    4|
 ```
+## Podemos traçar a frequências de palavras
+```
+ggplot(discurso) +
+  aes(x = word, weight = freq) +
+  geom_bar(fill = "#8c508d") +
+  labs(x = "Words", y = "Freq", title = "Discurso Mandela") +
+  theme_minimal()
+  ```
+![image](https://user-images.githubusercontent.com/80591420/112727450-4f1d6d80-8f01-11eb-9622-697afbfd6795.png)
+
 
 
 
