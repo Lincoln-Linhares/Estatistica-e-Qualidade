@@ -191,13 +191,12 @@ Para melhorar os processos de soldagem de uma empresa fictícia, uma comissão c
 
 ```
 library(qcc)  
-cause.and.effect(cause=list(Medicao=c("Temperatura", "Altura da pasta", "Densidade"),  
-                            Material=c("Solda contaminada", "Soldabilidade", "Orientação"),  
+cause.and.effect(cause=list(Medicao=c("Temperatura", "Altura da pasta", "Densidade"), Material=c("Solda contaminada", "Soldabilidade", "Orientação"),  
                             Mao_de_obra=c("Alinhamento da palheta", "Carregamento da palheta"), 
-                            Meio_Ambiente=c("Temperatura"),  <br/>
+                            Meio_Ambiente=c("Temperatura"),  
                             Metodo=c("Quantidade", "Densidade relativa", "Tipo"),  
                             Maquina=c("Pressão do rolo", "Velocidade do rolo", "Ângulo do rolo")), 
-                 effect="Defeitos de soldagem")  <br/>
+                 effect="Defeitos de soldagem")  
                  ```
   ![image](https://user-images.githubusercontent.com/80591420/112541664-6b4ecc80-8d92-11eb-8954-52201f9e4b25.png)
   
