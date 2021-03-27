@@ -202,7 +202,7 @@ Material=c("Solda contaminada", "Soldabilidade", "Orientação"),
                  
   ![image](https://user-images.githubusercontent.com/80591420/112541664-6b4ecc80-8d92-11eb-8954-52201f9e4b25.png)
   
-  #Nuvem de palavras
+  # Nuvem de palavras
   
   <div id="disqus_thread"></div>
 <script>
