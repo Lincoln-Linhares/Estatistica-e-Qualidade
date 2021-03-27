@@ -264,7 +264,8 @@ ggplot(discu) +
   labs(x = "Words", y = "Freq", title = "Discurso Mandela") +
   theme_minimal()
   ```
-![image](https://user-images.githubusercontent.com/80591420/112727450-4f1d6d80-8f01-11eb-9622-697afbfd6795.png)
+![image](https://user-images.githubusercontent.com/80591420/112727936-9f95ca80-8f03-11eb-89e7-7d424dfca12d.png)
+
 <div id="disqus_thread"></div>
 <script>
     /**
