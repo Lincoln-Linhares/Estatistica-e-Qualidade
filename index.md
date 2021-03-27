@@ -238,7 +238,8 @@ wordcloud(words = d$word, freq = d$freq, min.freq = 1,
           max.words=200, random.order=FALSE, rot.per=0.47, 
           colors= "black")
 ```
-![image](https://user-images.githubusercontent.com/80591420/112725406-d7e2dc00-8ef6-11eb-85fb-5f897801cfc5.png)
+![image](https://user-images.githubusercontent.com/80591420/112727936-9f95ca80-8f03-11eb-89e7-7d424dfca12d.png)
+
 A nuvem de palavras acima evidencia que “world”, “great”, “african” e “south” são as 4 palavras mais importantes no “ discurso de Nelson Mandela em Harvard
 
 ```
@@ -257,9 +258,9 @@ A nuvem de palavras acima evidencia que “world”, “great”, “african” 
 ```
 ## Podemos traçar as frequências em que ocorrem as palavras
 ```
-ggplot(discurso) +
+ggplot(discu) +
   aes(x = word, weight = freq) +
-  geom_bar(fill = "#8c508d") +
+  geom_bar(fill = "#000000") +
   labs(x = "Words", y = "Freq", title = "Discurso Mandela") +
   theme_minimal()
   ```
