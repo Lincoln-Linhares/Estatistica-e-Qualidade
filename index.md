@@ -240,6 +240,20 @@ wordcloud(words = d$word, freq = d$freq, min.freq = 1,
 ```
 ![image](https://user-images.githubusercontent.com/80591420/112725406-d7e2dc00-8ef6-11eb-85fb-5f897801cfc5.png)
 
+```
+|            |word        | freq|
+|:-----------|:-----------|----:|
+|world       |world       |   21|
+|great       |great       |   11|
+|african     |african     |    7|
+|south       |south       |    7|
+|institution |institution |    6|
+|africa      |africa      |    6|
+|will        |will        |    6|
+|one         |one         |    5|
+|also        |also        |    5|
+|century     |century     |    4|
+```
 
 
 
