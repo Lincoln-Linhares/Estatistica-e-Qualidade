@@ -340,7 +340,13 @@ ggplot() +
   axis.text = element_blank(),
   axis.title = element_blank())
   interest_over_time
+  ```
 ![image](https://user-images.githubusercontent.com/80591420/112878397-43b37900-909e-11eb-91f0-144387ae2c08.png)
+
+
+Como esperado, os principais interessados na palavra-chave “caverna do dragão” estão em países que falam português, Brasil na América so Sul, alguns países africanos e Portugal na europa.
+
+
 
 
 
