@@ -322,6 +322,25 @@ ggplot(desenho$interest_over_time, aes(x= date, y= hits))+
   ggtitle("Procura pelo termo 'Caverna do Dragão'")
   
 ![image](https://user-images.githubusercontent.com/80591420/112877709-790b9700-909d-11eb-853b-16d1f68796ca.png)
+```
+A seguir...
+```
+ggplot() +
+  geom_map(data = world,
+           map = world,
+           aes(x = long, y = lat, map_id = region),
+           fill="#ffffff", color="#ffffff", size=0.15) +
+  geom_map(data = my_df,
+           map = world,
+           aes(fill = hits, map_id = region),
+           color="#ffffff", size=0.15) +
+  scale_fill_continuous(low = 'grey', high = 'red') +
+  theme(axis.ticks = element_blank(),
+        axis.text = element_blank(),
+        axis.title = element_blank())
+interest_over_time
+![image](https://user-images.githubusercontent.com/80591420/112878397-43b37900-909e-11eb-91f0-144387ae2c08.png)
+
 
 
 
