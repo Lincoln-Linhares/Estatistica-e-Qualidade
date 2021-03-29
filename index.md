@@ -206,8 +206,8 @@ cause.and.effect(cause=list(Medicao=c("Temperatura", "Altura da pasta", "Densida
   
 # Nuvem de palavras
   
-Os métodos de mineração de texto nos permitem destacar as palavras-chave usadas com mais frequência em um parágrafo de texto. Pode-se criar uma nuvem de palavras , também conhecida como nuvem de texto ou nuvem de tag , que é uma representação visual dos dados.
-O procedimento de criação de nuvens de palavras é simples em R. O pacote text mining ( tm ) e o pacote gerador de nuvem de palavras ( wordcloud ) estão disponíveis em R para nos ajudar a analisar textos e visualizar rapidamente as palavras-chave como uma nuvem de palavras.
+Os métodos de mineração de texto nos permitem destacar as palavras-chave usadas com mais frequência em um parágrafo de texto. Pode-se criar uma nuvem de palavrasntambém conhecida como nuvem de texto ou nuvem de tag, que é uma representação visual dos dados.
+O procedimento de criação de nuvens de palavras é simples em R. O pacote text mining (tm) e o pacote gerador de nuvem de palavras (wordcloud) estão disponíveis em R para nos ajudar a analisar textos e visualizar rapidamente as palavras-chave como uma nuvem de palavras.
 
 library("tm")  <br/>
 library("SnowballC")  <br/>
@@ -288,8 +288,7 @@ names(desenho)
 [7] "related_queries" 
 ```
 
-Os resultados são armazenados em uma lista com nomes autoexplicativos. Logo uma palavra-chave que deve ser específica da região e da cidade.
-Abaixo, o interesse em “caverna do dragão” estratificados por região e cidade classificados do maior para o menor.
+Os resultados são armazenados em uma lista com nomes autoexplicativos. Abaixo, o interesse em “caverna do dragão” estratificados por estado e cidade e classificados do maior para o menor.
 ```
 kable(desenho$interest_by_region %>%
   arrange(desc(hits)) %>%
