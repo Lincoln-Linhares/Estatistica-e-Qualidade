@@ -204,7 +204,7 @@ cause.and.effect(cause=list(Medicao=c("Temperatura", "Altura da pasta", "Densida
   ![image](https://user-images.githubusercontent.com/80591420/112541664-6b4ecc80-8d92-11eb-8954-52201f9e4b25.png)
   
   
-# Nuvem de palavras
+## Nuvem de palavras
   
 Os métodos de mineração de texto nos permitem destacar as palavras-chave usadas com mais frequência em um parágrafo de texto. Pode-se criar uma nuvem de palavrasntambém conhecida como nuvem de texto ou nuvem de tag, que é uma representação visual dos dados.
 O procedimento de criação de nuvens de palavras é simples em R. O pacote text mining (tm) e o pacote gerador de nuvem de palavras (wordcloud) estão disponíveis em R para nos ajudar a analisar textos e visualizar rapidamente as palavras-chave como uma nuvem de palavras.
@@ -240,7 +240,7 @@ wordcloud(words = d$word, freq = d$freq, min.freq = 1,
 ```
 ![image](https://user-images.githubusercontent.com/80591420/112725406-d7e2dc00-8ef6-11eb-85fb-5f897801cfc5.png)
 
-A nuvem de palavras acima evidencia que “world”, “great”, “african” e “south” são as 4 palavras mais importantes no “ discurso de Nelson Mandela em Harvard
+A nuvem de palavras acima evidencia que “world”, “great”, “african” e “south” são as 4 palavras mais importantes no discurso de Nelson Mandela em Harvard.
 
 ```
 |            |word        | freq|
@@ -268,7 +268,7 @@ ggplot(discu) +
 
 # [Google Trends](https://trends.google.com.br/trends/?geo=BR) com R
  
-O Google Trends é um recurso de tendências de pesquisa que mostra a frequência com que um determinado termo é inserido no mecanismo de pesquisa do Google em relação ao volume total de pesquisa do site em um determinado período de tempo e pode ser usado para pesquisas comparativas de palavras-chave e também descobrir picos acionados por eventos no volume de pesquisas de palavras-chave. Esta abordagem é sobre como traçar e plotar os dados do Google Trends utilizando o pacote gtrendsR.  <br/>
+O Google Trends é um recurso de tendências de pesquisa que mostra a frequência com que um determinado termo é inserido no mecanismo de pesquisa do Google em relação ao volume total de pesquisa do site em um determinado período de tempo e pode ser usado para pesquisas comparativas de palavras-chave e também descobrir picos acionados por eventos no volume de pesquisas de palavras-chave. Esta abordagem é sobre como traçar e plotar os dados do Google Trends utilizando o pacote ```gtrendsR```.  <br/>
 ```
 library(dplyr)
 library(ggplot2)
@@ -288,7 +288,7 @@ names(desenho)
 [7] "related_queries" 
 ```
 
-Os resultados são armazenados em uma lista com nomes autoexplicativos. Abaixo, o interesse em “caverna do dragão” estratificados por estado e cidade e classificados do maior para o menor.
+Os resultados são armazenados em uma lista com nomes autoexplicativos. Abaixo, o interesse em “caverna do dragão” estratificado por estado e cidade e classificado do maior para o menor.
 ```
 kable(desenho$interest_by_region %>%
   arrange(desc(hits)) %>%
@@ -323,7 +323,7 @@ ggplot(desenho$interest_over_time, aes(x= date, y= hits))+
   
 ![image](https://user-images.githubusercontent.com/80591420/112877709-790b9700-909d-11eb-853b-16d1f68796ca.png)
 
-O gráfico apresenta três picos, em 2004 e 2011 qundo ocorreram reprises do desenho, o outro pico em 2019 quando uma propaganda de carros relacionada ao tema fez sucesso no Brasil.
+O gráfico apresenta três picos, em 2004 e 2011 quando ocorreram reprises do desenho, o outro pico em 2019 quando uma propaganda de carros relacionada ao tema fez sucesso no Brasil.
 ```
 ggplot() +
   geom_map(data = world,
