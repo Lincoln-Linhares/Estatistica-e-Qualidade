@@ -320,9 +320,10 @@ Aqui a plotagem
 ggplot(desenho$interest_over_time, aes(x= date, y= hits))+
   geom_line()+
   ggtitle("Procura pelo termo 'Caverna do Dragão'")
+  ```
   
 ![image](https://user-images.githubusercontent.com/80591420/112877709-790b9700-909d-11eb-853b-16d1f68796ca.png)
-```
+
 A seguir...
 ```
 ggplot() +
