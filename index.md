@@ -266,7 +266,7 @@ ggplot(discu) +
   ```
 ![image](https://user-images.githubusercontent.com/80591420/112727936-9f95ca80-8f03-11eb-89e7-7d424dfca12d.png)
 
- # [Google Trends](https://trends.google.com.br/trends/?geo=BR) com R
+ [Google Trends](https://trends.google.com.br/trends/?geo=BR) com R
  
 O Google Trends é um recurso de tendências de pesquisa que mostra a frequência com que um determinado termo é inserido no mecanismo de pesquisa do Google em relação ao volume total de pesquisa do site em um determinado período de tempo e pode ser usado para pesquisas comparativas de palavras-chave e também descobrir picos acionados por eventos no volume de pesquisas de palavras-chave. Esta abordagem é sobre como traçar e plotar os dados do Google Trends utilizando o pacote gtrendsR.  <br/>
 ```
