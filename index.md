@@ -274,9 +274,58 @@ library(dplyr)
 library(ggplot2)
 library(gtrendsR)
 library(maps)
-library(ggfortify)
 library(ggpmisc)
+library(knitr)
+
+desenho <- gtrends("caverna do dragão",
+                          geo = "BR",
+                          time = "all")
+names(desenho)
+
+names(desenho)
+[1] "interest_over_time"  "interest_by_country" "interest_by_region" 
+[4] "interest_by_dma"     "interest_by_city"    "related_topics"     
+[7] "related_queries" 
 ```
+
+Os resultados são armazenados em uma lista com nomes autoexplicativos. Logo uma palavra-chave que deve ser específica da região e da cidade.
+Abaixo, o interesse em “caverna do dragão” estratificados por região e cidade classificados do maior para o menor.
+```
+kable(desenho$interest_by_region %>%
+  arrange(desc(hits)) %>%
+    head(5))
+  
+|location                     | hits|keyword           |geo |gprop |
+|:----------------------------|----:|:-----------------|:---|:-----|
+|State of Pernambuco          |  100|caverna do dragão |BR  |web   |
+|State of Amapa               |   98|caverna do dragão |BR  |web   |
+|State of Rio Grande do Norte |   94|caverna do dragão |BR  |web   |
+|State of Bahia               |   93|caverna do dragão |BR  |web   |
+|State of Ceará               |   89|caverna do dragão |BR  |web   |
+
+kable(desenho$interest_by_city %>%
+  arrange(desc(hits)) %>%
+    head(5))
+    
+|location   | hits|keyword           |geo |gprop |
+|:----------|----:|:-----------------|:---|:-----|
+|Santos     |  100|caverna do dragão |BR  |web   |
+|Natal      |   97|caverna do dragão |BR  |web   |
+|São Luiz   |   96|caverna do dragão |BR  |web   |
+|Recife     |   93|caverna do dragão |BR  |web   |
+|Salvador   |   91|caverna do dragão |BR  |web   |
+```
+Aqui a plotagem 
+```
+ggplot(desenho$interest_over_time, aes(x= date, y= hits))+
+  geom_line()+
+  ggtitle("Procura pelo termo 'Caverna do Dragão'")
+  
+![image](https://user-images.githubusercontent.com/80591420/112877709-790b9700-909d-11eb-853b-16d1f68796ca.png)
+
+
+
+  
 
  
  
