@@ -256,7 +256,7 @@ A nuvem de palavras acima evidencia que “world”, “great”, “african” 
 |also        |also        |    5|
 |century     |century     |    4|
 ```
-## Podemos traçar as frequências em que ocorrem as palavras
+Podemos traçar as frequências em que ocorrem as palavras
 ```
 ggplot(discu) +
   aes(x = word, weight = freq) +
@@ -323,7 +323,7 @@ ggplot(desenho$interest_over_time, aes(x= date, y= hits))+
   
 ![image](https://user-images.githubusercontent.com/80591420/112877709-790b9700-909d-11eb-853b-16d1f68796ca.png)
 
-A seguir...
+O gráfico apresenta três picos, em 2004 e 2011 qundo ocorreram reprises do desenho, o outro pico em 2019 quando uma propaganda de carros relacionada ao tema fez sucesso no Brasil.
 ```
 ggplot() +
   geom_map(data = world,
