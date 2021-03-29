@@ -266,7 +266,7 @@ ggplot(discu) +
   ```
 ![image](https://user-images.githubusercontent.com/80591420/112727936-9f95ca80-8f03-11eb-89e7-7d424dfca12d.png)
 
- # [Google Trends](https://trends.google.com.br/trends/?geo=BR)com R
+ # [Google Trends](https://trends.google.com.br/trends/?geo=BR) com R
  
  
  
