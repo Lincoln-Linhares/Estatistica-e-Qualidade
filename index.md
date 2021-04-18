@@ -55,7 +55,7 @@ theme(text = element_text(size = 11))+
 geom_smooth(method = "lm", col = 'blue')
   ```
   ![image](https://user-images.githubusercontent.com/80591420/111703744-d5102900-881c-11eb-95e3-a7cbbd1c8f03.png)
-  @@ -0,0 +1,241 @@
+  @@ -0,0 +2,2 @@
   
 # Regressão Linear
 Regressão é utilizada para analisar relações entre variáveis contínuas. Em sua forma mais básica, descreve a relação linear entre uma variável preditora, representada graficamente no eixo X, e uma variável resposta, representada no eixo Y.
