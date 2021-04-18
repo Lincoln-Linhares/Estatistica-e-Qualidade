@@ -55,7 +55,6 @@ theme(text = element_text(size = 11))+
 geom_smooth(method = "lm", col = 'blue')
   ```
   ![image](https://user-images.githubusercontent.com/80591420/111703744-d5102900-881c-11eb-95e3-a7cbbd1c8f03.png)
-  @@ -0,0 +2,2 @@
   
 # Regressão Linear
 Regressão é utilizada para analisar relações entre variáveis contínuas. Em sua forma mais básica, descreve a relação linear entre uma variável preditora, representada graficamente no eixo X, e uma variável resposta, representada no eixo Y.
@@ -179,6 +178,8 @@ Estatisticas descritivas utilizadas na construção do gráfico de Pareto  <br/>
 defeitos mais observados. Portanto, esses dois defeitos devem ser priorizados, pois, conjuntamente, perfazem aproximadamente 74, 36% das falhas. Logo, validade incorreta poderia ser incluída, com os três tipos de defeitos respondendo por cerca de 85,03% das falhas totais.
 
 ## Diagrama de causa e efeito em R 
+ @@ -0,0 +2,2 @@
+
 
 Para melhorar os processos de soldagem de uma empresa fictícia, uma comissão composta pelas partes interessadas foi formada. Essas pessoas conduzem uma discussão (brainstorming) e produzem um diagrama de causa e efeito. Como resultado da sessão de discussão, a comissão identifica, por tentativa, as seguintes variáveis como potenciais influenciadoras:
 
