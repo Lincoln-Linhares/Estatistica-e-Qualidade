@@ -346,11 +346,7 @@ ggplot() +
 
 Como esperado, os principais interessados na palavra-chave “caverna do dragão” estão em países que falam português, Brasil na América do Sul, alguns países africanos e Portugal na europa.
 
-# [Análise exploratória dos dados](https://mathjax.rstudio.com/2.7.2/MathJax.js?config=TeX-AMS-MML%5C_HTMLorMML) com R
-
-"C:/Program Files/RStudio/bin/pandoc/pandoc" +RTS -K512m -RTS EDA_Report.utf8.md --to html4 --from markdown+autolink_bare_uris+tex_math_single_backslash --output pandoc23803ce237bf.html --lua-filter "C:\PROGRA~1\R\R-40~1.4\library\RMARKD~1\RMARKD~1\lua\PAGEBR~1.LUA" --lua-filter "C:\PROGRA~1\R\R-40~1.4\library\RMARKD~1\RMARKD~1\lua\LATEX-~1.LUA" --self-contained --standalone --section-divs --table-of-contents --toc-depth 3 --template "C:/Program Files/R/R-4.0.4/library/prettydoc/resources/templates/cayman.html" --highlight-style pygments --number-sections --include-in-header "C:\Users\luely\AppData\Local\Temp\RtmpyQvf7F\rmarkdown-str23801253e68.html" --mathjax --variable "mathjax-url:https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" --css "C:\Users\luely\AppData\Local\Temp\RtmpyQvf7F\EDA_Report_files/style.css" 
-
-
+# [Análise exploratória dos dados](http://localhost:22117/session/EDA_Report.html) com R.
 
 
   
