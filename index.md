@@ -373,6 +373,53 @@ A distância entre a residência do indivíduo e o local de trabalho em quilôme
 languages
 O número de idiomas falados fluentemente pelo indivíduo<br/>
 
+
+
+summary(sociological_data)<br/>
+```
+Call:
+lm(formula = annual_income_ppp ~ ., data = sociological_data)
+
+Residuals:
+   Min     1Q Median     3Q    Max 
+-64707  -5104    -66   5351  35211 
+
+Coefficients:
+                                       Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                            59904.23    5382.46  11.130  < 2e-16 ***
+average_wk_hrs                           -98.41      59.20  -1.662 0.096612 .  
+education_months                         143.16      10.72  13.356  < 2e-16 ***
+regionCentral Asia                    -11304.33    3069.41  -3.683 0.000237 ***
+regionEastern Asia                      -299.83    3077.31  -0.097 0.922393    
+regionEastern Europe                   -9017.38    2793.04  -3.229 0.001264 ** 
+regionLatin America and the Caribbean   -327.64    2819.62  -0.116 0.907505    
+regionMelanesia                        -4492.99    3078.55  -1.459 0.144598    
+regionMicronesia                      -13264.10    3751.10  -3.536 0.000415 ***
+regionNorthern Africa                    489.11    3140.16   0.156 0.876238    
+regionNorthern America                 12923.06    3672.29   3.519 0.000443 ***
+regionNorthern Europe                   -112.65    2670.06  -0.042 0.966352    
+regionPolynesia                        -2428.23    3276.50  -0.741 0.458717    
+regionSouth-eastern Asia               -6348.53    3022.13  -2.101 0.035793 *  
+regionSouthern Asia                    -3276.90    3020.01  -1.085 0.278024    
+regionSouthern Europe                   4634.46    2719.88   1.704 0.088551 .  
+regionSub-Saharan Africa              -21528.30    2908.22  -7.403 1.95e-13 ***
+regionWestern Asia                      1873.39    2858.57   0.655 0.512312    
+regionWestern Europe                    7236.01    2730.88   2.650 0.008119 ** 
+job_typeUnskilled                      -6126.74     909.98  -6.733 2.16e-11 ***
+genderM                                10181.62     785.91  12.955  < 2e-16 ***
+family_size                               16.16     172.44   0.094 0.925341    
+work_distance                            -42.68     122.73  -0.348 0.728055    
+languages                              -1727.83    2977.93  -0.580 0.561838    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 9688 on 2012 degrees of freedom
+  (582 observations deleted due to missingness)
+Multiple R-squared:  0.8039,	Adjusted R-squared:  0.8017 
+F-statistic: 358.7 on 23 and 2012 DF,  p-value: < 2.2e-16
+```
+
+
   
 
  
