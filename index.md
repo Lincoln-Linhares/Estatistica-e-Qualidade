@@ -432,41 +432,43 @@ summary(modelo2)
 ```
 Call:
 lm(formula = annual_income_ppp ~ education_months + region + 
-    gender, data = sociological_data)
+    gender + job_type, data = sociological_data)
 
 Residuals:
    Min     1Q Median     3Q    Max 
--66119  -5327      5   4731  34261 
+-66359  -5046     25   4886  33889 
 
 Coefficients:
                                         Estimate Std. Error t value Pr(>|t|)    
-(Intercept)                            54800.583   2592.181  21.141  < 2e-16 ***
-education_months                         145.066      8.476  17.115  < 2e-16 ***
-regionCentral Asia                    -17703.650   2124.002  -8.335  < 2e-16 ***
-regionEastern Asia                     -5454.830   2273.112  -2.400 0.016478 *  
-regionEastern Europe                  -10726.596   1977.812  -5.423 6.39e-08 ***
-regionLatin America and the Caribbean  -6128.155   1861.590  -3.292 0.001009 ** 
-regionMelanesia                       -11762.484   2205.229  -5.334 1.04e-07 ***
-regionMicronesia                      -16720.581   2508.389  -6.666 3.21e-11 ***
-regionNorthern Africa                  -8742.795   2077.476  -4.208 2.66e-05 ***
-regionNorthern America                  6301.154   2950.826   2.135 0.032824 *  
-regionNorthern Europe                  -1897.397   1887.927  -1.005 0.314984    
-regionPolynesia                        -8713.378   2463.827  -3.537 0.000413 ***
-regionSouth-eastern Asia              -10230.190   1999.805  -5.116 3.36e-07 ***
-regionSouthern Asia                   -11534.250   2061.039  -5.596 2.42e-08 ***
-regionSouthern Europe                   1789.478   1912.819   0.936 0.349609    
-regionSub-Saharan Africa              -28437.721   1939.919 -14.659  < 2e-16 ***
-regionWestern Asia                     -4310.315   1904.032  -2.264 0.023670 *  
-regionWestern Europe                    5711.140   1950.670   2.928 0.003444 ** 
-genderM                                 9801.581    665.359  14.731  < 2e-16 ***
+(Intercept)                            57436.286   2555.934  22.472  < 2e-16 ***
+education_months                         134.002      8.386  15.980  < 2e-16 ***
+regionCentral Asia                    -10549.775   2200.182  -4.795 1.72e-06 ***
+regionEastern Asia                      -877.617   2275.111  -0.386 0.699716    
+regionEastern Europe                   -9042.417   1947.126  -4.644 3.59e-06 ***
+regionLatin America and the Caribbean   1128.249   1961.885   0.575 0.565285    
+regionMelanesia                        -4669.154   2273.918  -2.053 0.040139 *  
+regionMicronesia                       -9629.471   2558.368  -3.764 0.000171 ***
+regionNorthern Africa                  -1585.937   2157.115  -0.735 0.462277    
+regionNorthern America                 13942.300   2991.376   4.661 3.31e-06 ***
+regionNorthern Europe                   -436.582   1857.451  -0.235 0.814194    
+regionPolynesia                        -1381.672   2523.092  -0.548 0.584007    
+regionSouth-eastern Asia               -3974.156   2056.779  -1.932 0.053442 .  
+regionSouthern Asia                    -4531.998   2136.889  -2.121 0.034031 *  
+regionSouthern Europe                   4405.960   1893.994   2.326 0.020081 *  
+regionSub-Saharan Africa              -21480.602   2023.338 -10.616  < 2e-16 ***
+regionWestern Asia                      2439.525   1983.281   1.230 0.218793    
+regionWestern Europe                    6403.548   1914.595   3.345 0.000836 ***
+genderM                                10103.649    653.319  15.465  < 2e-16 ***
+job_typeUnskilled                      -8102.711    801.130 -10.114  < 2e-16 ***
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
-Residual standard error: 9568 on 2573 degrees of freedom
+Residual standard error: 9385 on 2572 degrees of freedom
   (26 observations deleted due to missingness)
-Multiple R-squared:  0.791,	Adjusted R-squared:  0.7896 
-F-statistic:   541 on 18 and 2573 DF,  p-value: < 2.2e-167
+Multiple R-squared:  0.799,	Adjusted R-squared:  0.7975 
+F-statistic: 538.1 on 19 and 2572 DF,  p-value: < 2.2e-16
 ```
+
 
 
 
