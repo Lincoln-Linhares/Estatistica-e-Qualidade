@@ -424,7 +424,51 @@ F-statistic: 358.7 on 23 and 2012 DF,  p-value: < 2.2e-16
   
 ![image](https://user-images.githubusercontent.com/80591420/119045995-8acd3480-b992-11eb-8b3d-9616957a34ec.png)
 
+Fica claro quais variáveis apresentam maior influencia, 
+
 ![image](https://user-images.githubusercontent.com/80591420/119045700-2f9b4200-b992-11eb-9b9e-56a14365172e.png)
+
+summary(modelo2)
+```
+Call:
+lm(formula = annual_income_ppp ~ education_months + region + 
+    gender, data = sociological_data)
+
+Residuals:
+   Min     1Q Median     3Q    Max 
+-66119  -5327      5   4731  34261 
+
+Coefficients:
+                                        Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                            54800.583   2592.181  21.141  < 2e-16 ***
+education_months                         145.066      8.476  17.115  < 2e-16 ***
+regionCentral Asia                    -17703.650   2124.002  -8.335  < 2e-16 ***
+regionEastern Asia                     -5454.830   2273.112  -2.400 0.016478 *  
+regionEastern Europe                  -10726.596   1977.812  -5.423 6.39e-08 ***
+regionLatin America and the Caribbean  -6128.155   1861.590  -3.292 0.001009 ** 
+regionMelanesia                       -11762.484   2205.229  -5.334 1.04e-07 ***
+regionMicronesia                      -16720.581   2508.389  -6.666 3.21e-11 ***
+regionNorthern Africa                  -8742.795   2077.476  -4.208 2.66e-05 ***
+regionNorthern America                  6301.154   2950.826   2.135 0.032824 *  
+regionNorthern Europe                  -1897.397   1887.927  -1.005 0.314984    
+regionPolynesia                        -8713.378   2463.827  -3.537 0.000413 ***
+regionSouth-eastern Asia              -10230.190   1999.805  -5.116 3.36e-07 ***
+regionSouthern Asia                   -11534.250   2061.039  -5.596 2.42e-08 ***
+regionSouthern Europe                   1789.478   1912.819   0.936 0.349609    
+regionSub-Saharan Africa              -28437.721   1939.919 -14.659  < 2e-16 ***
+regionWestern Asia                     -4310.315   1904.032  -2.264 0.023670 *  
+regionWestern Europe                    5711.140   1950.670   2.928 0.003444 ** 
+genderM                                 9801.581    665.359  14.731  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 9568 on 2573 degrees of freedom
+  (26 observations deleted due to missingness)
+Multiple R-squared:  0.791,	Adjusted R-squared:  0.7896 
+F-statistic:   541 on 18 and 2573 DF,  p-value: < 2.2e-167
+```
+
+
 
 
  
