@@ -419,8 +419,10 @@ Multiple R-squared:  0.8039,	Adjusted R-squared:  0.8017
 F-statistic: 358.7 on 23 and 2012 DF,  p-value: < 2.2e-16
 ```
 
+ plot(allEffects(modelo1), grid = T)
 
   
+![image](https://user-images.githubusercontent.com/80591420/119036054-b0ecd780-b986-11eb-945f-4e309618faee.png)
 
  
  
