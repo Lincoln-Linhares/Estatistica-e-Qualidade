@@ -349,6 +349,39 @@ Como esperado, os principais interessados na palavra-chave “caverna do dragão
 # [Análise exploratória dos dados](http://localhost:22117/session/EDA_Report.html) com R.
 
 
+# Data science
+
+sociological_data é dataframe de dados fictícios de uma pesquisa sociológica relacionada aos níveis de renda em várias regiões do mundo.
+
+Uso: dados_ sociológicos<br/>
+
+anual_income_ppp
+A renda anual do indivíduo em dólares americanos PPP ajustados<br/>
+
+average_wk_hrs
+O número médio de horas semanais trabalhadas pelo indivíduo<br/>
+
+educação_mês
+O número total de meses gastos pelo indivíduo na educação formal primária, secundária e terciária<br/>
+
+região
+A região do mundo onde o indivíduo vive<br/>
+
+tipo de emprego
+Se o indivíduo trabalha em uma profissão qualificada ou não especializada<br/>
+
+Gênero sexual
+O gênero do indivíduo<br/>
+
+tamanho família
+O tamanho da família de dependentes do indivíduo<br/>
+
+distância_trabalho
+A distância entre a residência do indivíduo e o local de trabalho em quilômetros<br/>
+
+línguas
+O número de idiomas falados fluentemente pelo indivíduo<br/>
+
   
 
  
