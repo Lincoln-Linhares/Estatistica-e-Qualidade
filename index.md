@@ -422,7 +422,7 @@ F-statistic: 358.7 on 23 and 2012 DF,  p-value: < 2.2e-16
  plot(allEffects(modelo1), grid = T)
 
   
-![image](https://user-images.githubusercontent.com/80591420/119036054-b0ecd780-b986-11eb-945f-4e309618faee.png)
+![image](https://user-images.githubusercontent.com/80591420/119045995-8acd3480-b992-11eb-8b3d-9616957a34ec.png)
 
 ![image](https://user-images.githubusercontent.com/80591420/119045700-2f9b4200-b992-11eb-9b9e-56a14365172e.png)
 
