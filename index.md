@@ -468,6 +468,8 @@ Residual standard error: 9385 on 2572 degrees of freedom
 Multiple R-squared:  0.799,	Adjusted R-squared:  0.7975 
 F-statistic: 538.1 on 19 and 2572 DF,  p-value: < 2.2e-16
 ```
+![image](https://user-images.githubusercontent.com/80591420/119048282-66268c00-b995-11eb-88eb-3a41b84c1f6f.png)
+
 
 
 
