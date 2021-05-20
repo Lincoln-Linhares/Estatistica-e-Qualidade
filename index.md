@@ -483,6 +483,10 @@ AIC       |       BIC |    R2 | R2 (adj.) |     RMSE |    Sigma
 ---------------------------------------------------------------
 54795.040 | 54918.104 | 0.799 |     0.798 | 9348.681 | 9384.959
 ```
+plot(compare_performance(modelo1, modelo2))<br/>
+Curiosamente podemos comparar modelos entre si e traçar imediatamente o que ocorre:
+
+![image](https://user-images.githubusercontent.com/80591420/119050503-56f50d80-b998-11eb-995a-fe639575781d.png)
 
 
 
