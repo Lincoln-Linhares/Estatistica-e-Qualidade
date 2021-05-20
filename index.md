@@ -471,6 +471,22 @@ F-statistic: 538.1 on 19 and 2572 DF,  p-value: < 2.2e-16
 ![image](https://user-images.githubusercontent.com/80591420/119048282-66268c00-b995-11eb-88eb-3a41b84c1f6f.png)
 ![image](https://user-images.githubusercontent.com/80591420/119048484-a980fa80-b995-11eb-96c4-c314de3aa0a1.png)
 
+model_performance(modelo1) 
+```
+AIC       |       BIC |    R2 | R2 (adj.) |     RMSE |    Sigma
+---------------------------------------------------------------
+43179.244 | 43319.713 | 0.804 |     0.802 | 9630.810 | 9688.080
+```
+model_performance(modelo2) 
+```
+AIC       |       BIC |    R2 | R2 (adj.) |     RMSE |    Sigma
+---------------------------------------------------------------
+54795.040 | 54918.104 | 0.799 |     0.798 | 9348.681 | 9384.959
+```
+
+
+
+
 
 
 
