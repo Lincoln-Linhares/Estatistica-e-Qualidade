@@ -415,7 +415,7 @@ Pode-se ver que o número total de meses gastos pelo indivíduo na educação fo
   
 ![image](https://user-images.githubusercontent.com/80591420/119045995-8acd3480-b992-11eb-8b3d-9616957a34ec.png)
 
-Fica claro quais variáveis apresentam maior influencia, 
+Fica claro quais variáveis apresentam maior influencia através do gráfico de efeitos, o indivíduo com mais horas de estudo, mão de obra qualificada e do genero masculino recebem maiores salários.
 
 ![image](https://user-images.githubusercontent.com/80591420/119045700-2f9b4200-b992-11eb-9b9e-56a14365172e.png)
 
@@ -460,6 +460,7 @@ Multiple R-squared:  0.799,	Adjusted R-squared:  0.7975
 F-statistic: 538.1 on 19 and 2572 DF,  p-value: < 2.2e-16
 ```
 ![image](https://user-images.githubusercontent.com/80591420/119048282-66268c00-b995-11eb-88eb-3a41b84c1f6f.png)
+
 ![image](https://user-images.githubusercontent.com/80591420/119048484-a980fa80-b995-11eb-96c4-c314de3aa0a1.png)
 
 model_performance(modelo1) 
