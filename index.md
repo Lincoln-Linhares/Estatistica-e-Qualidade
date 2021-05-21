@@ -408,7 +408,7 @@ F-statistic: 358.7 on 23 and 2012 DF,  p-value: < 2.2e-16
 ```
 Para um determinado preditor, a estatística t avalia se há ou não associação significativa entre o preditor e a variável de resultado, ou seja, se o coeficiente beta do preditor é significativamente diferente de zero.
 
-Pode-se ver que o número total de meses gastos pelo indivíduo na educação formal primária, secundária e terciária do YouTube Region, genero e o tipo de trabalho estão significativamente associadas a renda anual do indivíduo em dólares americanos, enquanto as mdemais variáveis não estão significativamente associadas sendopossível retirá-las do modelo:
+Pode-se ver que o número total de meses gastos pelo indivíduo na educação formal primária, secundária e terciári, region, genero e o tipo de trabalho estão significativamente associadas a renda anual do indivíduo em dólares americanos, enquanto as demais variáveis não estão associadas, sendo possível retirá-las do modelo:
 
  plot(allEffects(modelo1), grid = T)
 
