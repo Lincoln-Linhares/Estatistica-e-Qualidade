@@ -354,15 +354,14 @@ Como esperado, os principais interessados na palavra-chave “caverna do dragão
 sociological_data é dataframe de dados fictícios de uma pesquisa sociológica relacionada aos níveis de renda em várias regiões do mundo.<br/>
 
 Uso: dados_ sociológicos<br/>
-```anual_income_ppp```A renda anual do indivíduo em dólares americanos PPP ajustados<br/>
-```average_wk_hrs```O número médio de horas semanais trabalhadas pelo indivíduo<br/>
-```education_months```O número total de meses gastos pelo indivíduo na educação formal primária, secundária e terciária<br/>
-```region```A região do mundo onde o indivíduo vive<br/>
-```job_type```Se o indivíduo trabalha em uma profissão qualificada ou não especializada<br/>
-```gender```O gênero do indivíduo<br/>
-```family_size```O tamanho da família de dependentes do indivíduo<br/>
-```work_distance```A distância entre a residência do indivíduo e o local de trabalho em quilômetros<br/>
-```*languages```O número de idiomas falados fluentemente pelo indivíduo<br/>
+````anual_income_ppp````A renda anual do indivíduo em dólares americanos PPP ajustados <br/>
+````average_wk_hrs````O número médio de horas semanais trabalhadas pelo indivíduo<br/>
+`````region `````A região do mundo onde o indivíduo vive<br/>
+````job_type````Se o indivíduo trabalha em uma profissão qualificada ou não especializada<br/>
+````gender```` O gênero do indivíduo<br/>
+````family_size````O tamanho da família de dependentes do indivíduo<br/>
+````work_distance````A distância entre a residência do indivíduo e o local de trabalho em quilômetros<br/>
+````languages````O número de idiomas falados fluentemente pelo indivíduo<br/>
 
 summary(sociological_data)<br/>
 ```
