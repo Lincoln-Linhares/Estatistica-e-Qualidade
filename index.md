@@ -284,7 +284,8 @@ desenho <- gtrends("caverna do dragão",
 names(desenho)
 
 names(desenho)
-[1] "interest_over_time"  "interest_by_country" "interest_by_region" 
+[1] "interest_over_time"  "interest_by_country" "interest_by_
+" 
 [4] "interest_by_dma"     "interest_by_city"    "related_topics"     
 [7] "related_queries" 
 ```
@@ -408,7 +409,7 @@ F-statistic: 358.7 on 23 and 2012 DF,  p-value: < 2.2e-16
 ```
 Para um determinado preditor, a estatística t avalia se há ou não associação significativa entre o preditor e a variável de resultado, ou seja, se o coeficiente beta do preditor é significativamente diferente de zero.
 
-Pode-se ver que o número total de meses gastos pelo indivíduo na educação formal, region, genero e o tipo de trabalho estão significativamente associadas a renda anual do indivíduo em dólares americanos, as demais variáveis não associadas serão retiradas do modelo.
+Pode-se ver que o número total de meses gastos pelo indivíduo na educação formal, região, genero e o tipo de trabalho estão significativamente associadas a renda anual do indivíduo em dólares americanos, as demais variáveis não associadas serão retiradas do modelo.
 
  plot(allEffects(modelo1), grid = T)
 
@@ -418,6 +419,12 @@ Pode-se ver que o número total de meses gastos pelo indivíduo na educação fo
 Fica claro quais variáveis apresentam maior influencia através do gráfico de efeitos, o indivíduo com mais horas de estudo, mão de obra qualificada e do genero masculino recebem maiores salários.
 
 ![image](https://user-images.githubusercontent.com/80591420/119045700-2f9b4200-b992-11eb-9b9e-56a14365172e.png)
+Para obter uma verificação abrangente package````performance```` fornece muitas funções para verificar as suposições do modelo, como ````check_collinearity()````, ````check_normality()````ou ````check_heteroscedasticity()````.
+A multicolinearidade não deve ser confundida com uma forte correlação bruta entre preditores. O que importa é a associação entre uma ou mais variáveis preditoras, condicional às outras variáveis do modelo . Em suma, multicolinearidade significa que, uma vez que você conhece o efeito de um preditor, o valor de conhecer o outro preditor é bastante baixo. Assim, um dos preditores não ajuda muito em termos de melhor compreensão do modelo ou previsão do resultado. Como consequência, se a multicolinearidade for um problema, o modelo parece sugerir que os preditores em questão não parecem estar associados de forma confiável com o resultado (McElreath 2020, capítulo 6.1 ).
+````check_normality()````chama stats::shapiro.test e verifica os resíduos padronizados (ou resíduos estudentizados para modelos mistos) para distribuição normal. Observe que este teste formal quase sempre produz resultados significativos para a distribuição de resíduos e inspeção visual (por exemplo, gráficos QQ) são preferíveis.
+
+
+Observação
 
 summary(modelo2)
 ```
@@ -479,7 +486,7 @@ plot(compare_performance(modelo1, modelo2))<br/>
 Curiosamente podemos comparar modelos entre si e traçar imediatamente o que ocorre:
 
 ![image](https://user-images.githubusercontent.com/80591420/119050503-56f50d80-b998-11eb-995a-fe639575781d.png)
-Observa-se a partir do gráfico que o modelo 1 é melhor para previsões, por conseguinte o modelo 2  descreve melhor os dados
+Observa-se a partir do gráfico que o modelo 1 é melhor para previsões, por conseguinte o modelo 2  descreve melhor os dados, é possível verficar a presença de outliers e por ai vai...
 
 
 
