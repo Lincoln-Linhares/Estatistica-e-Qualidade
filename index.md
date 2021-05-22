@@ -507,7 +507,7 @@ venn.plot <- draw.quad.venn(<br/>
   n134 = 11,<br/>
   n234 = 13,<br/>
   n1234 = 6,<br/>
-  category = c("First", "Second", "Third", "Fourth"),<br/>
+  category = c("Primeiro", "Segundo", "Rerceiro", "Quarto"),<br/>
   fill = c("orange", "red", "green", "blue"),<br/>
   lty = "dashed",<br/>
   cex = 2,<br/>
