@@ -540,6 +540,13 @@ xlim(c(0,0.05))+
   ![image](https://user-images.githubusercontent.com/80591420/119235324-4cf21c80-bb08-11eb-827a-5be47ffb9473.png)
 
 
+library(ggplot)
+```
+head(diamonds)
+ggplot(diamonds, aes(carat, colour = cut, fill = cut)) +
+  geom_density(bw = 0.2)+
+  theme_538()
+```
 
 
 
