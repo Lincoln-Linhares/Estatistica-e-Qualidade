@@ -488,6 +488,33 @@ Curiosamente podemos comparar modelos entre si e traçar imediatamente o que oco
 ![image](https://user-images.githubusercontent.com/80591420/119050503-56f50d80-b998-11eb-995a-fe639575781d.png)
 Observa-se a partir do gráfico que o modelo 1 é melhor para previsões, por conseguinte o modelo 2  descreve melhor os dados, é possível verficar a presença de outliers e por ai vai...
 
+# Gráficos
+
+library(VennDiagram)<br/>
+venn.plot <- draw.quad.venn(<br/>
+  area1 = 72,<br/>
+  area2 = 86,<br/>
+  area3 = 50,<br/>
+  area4 = 52,<br/>
+  n12 = 44,<br/>
+  n13 = 27,<br/>
+  n14 = 32,<br/>
+  n23 = 38,<br/>
+  n24 = 32,<br/>
+  n34 = 20,<br/>
+  n123 = 18,<br/>
+  n124 = 17,<br/>
+  n134 = 11,<br/>
+  n234 = 13,<br/>
+  n1234 = 6,<br/>
+  category = c("First", "Second", "Third", "Fourth"),<br/>
+  fill = c("orange", "red", "green", "blue"),<br/>
+  lty = "dashed",<br/>
+  cex = 2,<br/>
+  cat.cex = 2,<br/>
+  cat.col = c("orange", "red", "green", "blue")<br/>
+)
+
 
 
 
