@@ -518,6 +518,17 @@ venn.plot <- draw.quad.venn
 ```
 ![image](https://user-images.githubusercontent.com/80591420/119235072-1071f100-bb07-11eb-97d4-7938ec535188.png)
 
+library(ggplot2)<br/>
+library(dplyr)<br/>
+require(maps)<br/>
+require(viridis)<br/>
+```
+world_map <- map_data("world")
+ggplot(world_map, aes(x = long, y = lat, group = group)) +
+geom_polygon(fill="lightblue", colour = "white")
+```
+
+
 
 
 
