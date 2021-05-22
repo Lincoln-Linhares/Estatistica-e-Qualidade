@@ -572,6 +572,17 @@ ggplot(economics, aes(x = date, y = psavert)) +
  ```
 ![image](https://user-images.githubusercontent.com/80591420/119235681-1fa66e00-bb0a-11eb-8b83-8c650e48a69e.png)
 
+library(ggplot2)
+```
+head(iris)
+ggplot(iris, aes(Sepal.Length)) +
+  geom_histogram(aes(fill = Species, color = Species), bins = 15, 
+                 position = "identity", alpha = 0.2) +
+  scale_fill_viridis_d() +
+  scale_color_viridis_d()
+  ```
+
+
 
 
 
