@@ -529,6 +529,15 @@ geom_polygon(fill="lightblue", colour = "white")
 ```
 ![image](https://user-images.githubusercontent.com/80591420/119235211-bcb3d780-bb07-11eb-92d7-be9fa8d73961.png)
 
+library(ggplot2)
+```
+head(midwest)
+ggplot(midwest, aes(x=area, y= poptotal))+
+  geom_point(aes(col=state, size = popdensity))
+xlim(c(0,0.05))+
+  ylim(c(0,5000))
+  ```
+  
 
 
 
