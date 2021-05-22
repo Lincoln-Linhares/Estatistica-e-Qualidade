@@ -523,7 +523,7 @@ library(dplyr)<br/>
 require(maps)<br/>
 require(viridis)<br/>
 ```
-world_map <- map_data("world")
+mapa_mundi <- map_data("world")
 ggplot(world_map, aes(x = long, y = lat, group = group)) +
 geom_polygon(fill="lightblue", colour = "white")
 ```
