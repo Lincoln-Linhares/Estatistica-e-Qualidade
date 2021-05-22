@@ -516,6 +516,7 @@ venn.plot <- draw.quad.venn
   cat.col = c("orange", "red", "green", "blue")
 )
 ```
+![image](https://user-images.githubusercontent.com/80591420/119235072-1071f100-bb07-11eb-97d4-7938ec535188.png)
 
 
 
