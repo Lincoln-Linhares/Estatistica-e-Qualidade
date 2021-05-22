@@ -540,7 +540,7 @@ xlim(c(0,0.05))+
   ![image](https://user-images.githubusercontent.com/80591420/119235324-4cf21c80-bb08-11eb-827a-5be47ffb9473.png)
 
 
-library(ggplot)
+library(ggplot2)
 ```
 head(diamonds)
 ggplot(diamonds, aes(carat, colour = cut, fill = cut)) +
@@ -552,14 +552,25 @@ ggplot(diamonds, aes(carat, colour = cut, fill = cut)) +
 
 
 library(grid)<br>
-library(ggplot)
+library(ggplot2)
 ```
 ggplot(data = mtcars, aes(x = wt, y = mpg)) +
   geom_rect(xmin = 3.5, ymin = -Inf, xmax = 4, ymax = Inf,
             fill = "lightgray") +
   geom_point() + 
   theme_bw()
+  ```
 ![image](https://user-images.githubusercontent.com/80591420/119235512-49ab6080-bb09-11eb-9cc6-91966ee70eec.png)
+
+library(ggplot2)
+```
+ggplot(economics, aes(x = date, y = psavert)) +
+  geom_area(fill="lightblue", color="black") +
+  labs(title = "Poupança",
+       x = "anos",
+       y = "Poupança pessoal")
+ ```
+
 
 
 
