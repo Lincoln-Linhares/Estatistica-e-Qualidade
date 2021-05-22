@@ -548,7 +548,7 @@ ggplot(diamonds, aes(carat, colour = cut, fill = cut)) +
   theme_538()
 ```
 
-
+![image](https://user-images.githubusercontent.com/80591420/119235391-b70ac180-bb08-11eb-9939-f254d91723c3.png)
 
 
 
