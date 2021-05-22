@@ -559,6 +559,7 @@ ggplot(data = mtcars, aes(x = wt, y = mpg)) +
             fill = "lightgray") +
   geom_point() + 
   theme_bw()
+![image](https://user-images.githubusercontent.com/80591420/119235512-49ab6080-bb09-11eb-9cc6-91966ee70eec.png)
 
 
 
