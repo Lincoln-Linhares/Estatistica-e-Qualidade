@@ -491,30 +491,31 @@ Observa-se a partir do gráfico que o modelo 1 é melhor para previsões, por co
 # Gráficos
 
 library(VennDiagram)<br/>
-####venn.plot <- draw.quad.venn(<br/>
-  area1 = 72,<br/>
-  area2 = 86,<br/>
-  area3 = 50,<br/>
-  area4 = 52,<br/>
-  n12 = 44,<br/>
-  n13 = 27,<br/>
-  n14 = 32,<br/>
-  n23 = 38,<br/>
-  n24 = 32,<br/>
-  n34 = 20,<br/>
-  n123 = 18,<br/>
-  n124 = 17,<br/>
+```
+venn.plot <- draw.quad.venn
+  area1 = 72,
+  area2 = 86,
+  area3 = 50,
+  area4 = 52,
+  n12 = 44,
+  n13 = 27,
+  n14 = 32,
+  n23 = 38,
+  n24 = 32,
+  n34 = 20,
+  n123 = 18,
+  n124 = 17,
   n134 = 11,<br/>
   n234 = 13,<br/>
   n1234 = 6,<br/>
-  category = c("Primeiro", "Segundo", "Rerceiro", "Quarto"),<br/>
-  fill = c("orange", "red", "green", "blue"),<br/>
-  lty = "dashed",<br/>
-  cex = 2,<br/>
+  category = c("Primeiro", "Segundo", "Rerceiro", "Quarto"),
+  fill = c("orange", "red", "green", "blue"),
+  lty = "dashed",
+  cex = 2,
   cat.cex = 2,<br/>
-  cat.col = c("orange", "red", "green", "blue")<br/>
+  cat.col = c("orange", "red", "green", "blue")
 )
-####
+```
 
 
 
