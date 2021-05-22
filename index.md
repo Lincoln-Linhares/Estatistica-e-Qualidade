@@ -527,6 +527,7 @@ mapa_mundi <- map_data("world")
 ggplot(world_map, aes(x = long, y = lat, group = group)) +
 geom_polygon(fill="lightblue", colour = "white")
 ```
+![image](https://user-images.githubusercontent.com/80591420/119235211-bcb3d780-bb07-11eb-92d7-be9fa8d73961.png)
 
 
 
