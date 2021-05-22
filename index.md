@@ -488,7 +488,7 @@ Curiosamente podemos comparar modelos entre si e traçar imediatamente o que oco
 ![image](https://user-images.githubusercontent.com/80591420/119050503-56f50d80-b998-11eb-995a-fe639575781d.png)
 Observa-se a partir do gráfico que o modelo 1 é melhor para previsões, por conseguinte o modelo 2  descreve melhor os dados, é possível verficar a presença de outliers e por ai vai...
 
-# Gráficos
+## Gráficos
 
 library(VennDiagram)<br/>
 ```
