@@ -592,7 +592,9 @@ head(mtcars)
 
 ggqqplot(mtcars, x = "mpg",
          ggtheme = theme_bw())
-         ```
+```
+![image](https://user-images.githubusercontent.com/80591420/119235991-782a3b00-bb0b-11eb-8f0a-3bde0806b366.png)
+
 
 
 
