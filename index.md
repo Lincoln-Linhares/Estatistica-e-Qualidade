@@ -537,7 +537,8 @@ ggplot(midwest, aes(x=area, y= poptotal))+
 xlim(c(0,0.05))+
   ylim(c(0,5000))
   ```
-  
+  ![image](https://user-images.githubusercontent.com/80591420/119235324-4cf21c80-bb08-11eb-827a-5be47ffb9473.png)
+
 
 
 
