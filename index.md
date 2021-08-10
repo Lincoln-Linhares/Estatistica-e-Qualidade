@@ -648,17 +648,7 @@ ggqqplot(mtcars, x = "mpg",
        
        
        
-       
-     </div></div><div class="content"><div class="formulation clearfix"><h4 class="accesshide">Texto da questão</h4><input type="hidden" name="q530162:4_:sequencecheck" value="2" /><div class="qtext"><span class="filter_mathjaxloader_equation"><p>Calcule o valor mínimo da função</p><p>&nbsp; &nbsp; &nbsp; &nbsp;<span class="nolink">\(<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;f(x, y)=x^2-32x+y^2-64y+{1280},&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \)</span></p><p><span style="font-size: 0.9375rem;">restrito ao conjunto&nbsp;</span></p><p><span style="font-size: 0.9375rem;">&nbsp; &nbsp; &nbsp; &nbsp; <span class="nolink">\(<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;D=\{(x,y): x\geq0, y\geq 0,&nbsp; 2y+x \leq 8\}.<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \)</span></span></p></span></div><div class="ablock form-inline"><label for="q530162:4_answer">Resposta:</label><span class="answer"><input type="text" name="q530162:4_answer" value="89" id="q530162:4_answer" size="30" class="form-control d-inline" /></span></div></div></div></div><div class="submitbtns"><input type="submit" name="next" value="Finalizar tentativa ..." class="mod_quiz-next-nav btn btn-primary" /></div><input type="hidden" name="attempt" value="441758" /><input type="hidden" name="thispage" value="0" id="followingpage" /><input type="hidden" name="nextpage" value="-1" /><input type="hidden" name="timeup" value="0" id="timeup" /><input type="hidden" name="sesskey" value="qZFwbRAj8P" /><input type="hidden" name="scrollpos" value="" id="scrollpos" /><input type="hidden" name="slots" value="2,5,6,7,1,3,8,4" /></div></form><div id="connection-error" style="display: none;" role="alert"><p>Conexão de rede perdida. (Salvamento automático falhou). Anote quaisquer respostas registradas nesta página nos últimos minutos e tente conectar-se novamente. Quando a conexão for restabelecida, suas respostas devem ser salvas e esta mensagem irá desaparecer.</p>
-
-  
-
-               
-
-
-
-
-
+</div></div><div class="content"><div class="formulation clearfix"><h4 class="accesshide">Texto da questão</h4><input type="hidden" name="q530162:8_:sequencecheck" value="2" /><div class="qtext"><span class="filter_mathjaxloader_equation">Considere uma função <span class="nolink">\(  f:\mathbb{R}^2 \to \mathbb{R} \)</span> tal que suas derivadas parciais são dadas por  <span class="nolink">\(   f_x = x^2 - 8 x  \)</span>  e  <span class="nolink">\(   f_y = y - 7  \)</span> . Determine todos os extremos locais da função <span class="nolink">\( f \)</span>  e classifique-os.</span></div><div class="ablock"><div class="prompt">Escolha uma opção:</div><div class="answer"><div class="r0"><input type="radio" name="q530162:8_answer" value="0" id="q530162:8_answer0" aria-labelledby="q530162:8_answer0_label" /><div class="d-flex w-100" id="q530162:8_answer0_label" data-region="answer-label"><span class="answernumber">a. </span><div class="flex-fill ml-1"><span class="filter_mathjaxloader_equation"><span class="nolink">\( (0,7) \)</span> é ponto de máximo local e <span class="nolink">\( (8,7) \)</span> é ponto de mínimo  local.</span></div></div> </div>
 
 
 
