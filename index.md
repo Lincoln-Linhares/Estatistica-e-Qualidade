@@ -595,3 +595,756 @@ ggqqplot(mtcars, x = "mpg",
 ```
 ![image](https://user-images.githubusercontent.com/80591420/119235991-782a3b00-bb0b-11eb-8f0a-3bde0806b366.png)
 
+<!DOCTYPE html>
+
+<html  dir="ltr" lang="pt-br" xml:lang="pt-br">
+<head>
+    <title>Teste seus conhecimentos do módulo</title>
+    <link rel="shortcut icon" href="https://ufprvirtual.ufpr.br/theme/image.php/ufprvirtual/theme/1627934520/favicon" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="moodle, Teste seus conhecimentos do módulo" />
+<link rel="stylesheet" type="text/css" href="https://ufprvirtual.ufpr.br/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.css" /><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="https://ufprvirtual.ufpr.br/theme/styles.php/ufprvirtual/1627934520_1/all" />
+<script>
+//<![CDATA[
+var M = {}; M.yui = {};
+M.pageloadstarttime = new Date();
+M.cfg = {"wwwroot":"https:\/\/ufprvirtual.ufpr.br","sesskey":"qZFwbRAj8P","sessiontimeout":"7200","themerev":"1627934520","slasharguments":1,"theme":"ufprvirtual","iconsystemmodule":"core\/icon_system_fontawesome","jsrev":"1627934520","admin":"admin","svgicons":true,"usertimezone":"Am\u00e9rica\/S\u00e3o_Paulo","contextid":840935,"langrev":1628319965,"templaterev":"1627934520"};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
+var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''}
+if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else{me.path=component+'/'+component+'.'+me.type}};
+YUI_config = {"debug":false,"base":"https:\/\/ufprvirtual.ufpr.br\/lib\/yuilib\/3.17.2\/","comboBase":"https:\/\/ufprvirtual.ufpr.br\/theme\/yui_combo.php?","combine":true,"filter":null,"insertBefore":"firstthemesheet","groups":{"yui2":{"base":"https:\/\/ufprvirtual.ufpr.br\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"https:\/\/ufprvirtual.ufpr.br\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"https:\/\/ufprvirtual.ufpr.br\/theme\/yui_combo.php?m\/1627934520\/","combine":true,"comboBase":"https:\/\/ufprvirtual.ufpr.br\/theme\/yui_combo.php?","ext":false,"root":"m\/1627934520\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":null,"modules":{"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-widget-focusafterclose","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core-dragdrop":{"requires":["base","node","io","dom","dd","event-key","event-focus","moodle-core-notification"]},"moodle-core-formchangechecker":{"requires":["base","event-focus","moodle-core-event"]},"moodle-core-languninstallconfirm":{"requires":["base","node","moodle-core-notification-confirm","moodle-core-notification-alert"]},"moodle-core-handlebars":{"condition":{"trigger":"handlebars","when":"after"}},"moodle-core-popuphelp":{"requires":["moodle-core-tooltip"]},"moodle-core-tooltip":{"requires":["base","node","io-base","moodle-core-notification-dialogue","json-parse","widget-position","widget-position-align","event-outside","cache-base"]},"moodle-core-event":{"requires":["event-custom"]},"moodle-core-maintenancemodetimer":{"requires":["base","node"]},"moodle-core_availability-form":{"requires":["base","node","event","event-delegate","panel","moodle-core-notification-dialogue","json"]},"moodle-backup-backupselectall":{"requires":["node","event","node-event-simulate","anim"]},"moodle-backup-confirmcancel":{"requires":["node","node-event-simulate","moodle-core-notification-confirm"]},"moodle-course-formatchooser":{"requires":["base","node","node-event-simulate"]},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-course-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-course-coursebase","moodle-course-util"]},"moodle-form-passwordunmask":{"requires":[]},"moodle-form-dateselector":{"requires":["base","node","overlay","calendar"]},"moodle-form-shortforms":{"requires":["node","base","selector-css3","moodle-core-event"]},"moodle-question-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-question-preview":{"requires":["base","dom","event-delegate","event-key","core_question_engine"]},"moodle-question-searchform":{"requires":["base","node"]},"moodle-availability_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_date-form":{"requires":["base","node","event","io","moodle-core_availability-form"]},"moodle-availability_grade-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_group-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grouping-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_profile-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-mod_assign-history":{"requires":["node","transition"]},"moodle-mod_attendance-groupfilter":{"requires":["base","node"]},"moodle-mod_bigbluebuttonbn-recordings":{"requires":["base","node","datasource-get","datasource-jsonschema","datasource-polling","moodle-core-notification"]},"moodle-mod_bigbluebuttonbn-modform":{"requires":["base","node"]},"moodle-mod_bigbluebuttonbn-imports":{"requires":["base","node"]},"moodle-mod_bigbluebuttonbn-broker":{"requires":["base","node","datasource-get","datasource-jsonschema","datasource-polling","moodle-core-notification"]},"moodle-mod_bigbluebuttonbn-rooms":{"requires":["base","node","datasource-get","datasource-jsonschema","datasource-polling","moodle-core-notification"]},"moodle-mod_chamado-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_chamado-chamadobase","moodle-mod_chamado-util-base","moodle-mod_chamado-util-page","moodle-mod_chamado-util-slot","moodle-course-util"]},"moodle-mod_chamado-chamadobase":{"requires":["base","node"]},"moodle-mod_chamado-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form"]},"moodle-mod_chamado-util":{"requires":["node","moodle-core-actionmenu"],"use":["moodle-mod_chamado-util-base"],"submodules":{"moodle-mod_chamado-util-base":{},"moodle-mod_chamado-util-slot":{"requires":["node","moodle-mod_chamado-util-base"]},"moodle-mod_chamado-util-page":{"requires":["node","moodle-mod_chamado-util-base"]}}},"moodle-mod_chamado-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_chamado-chamadobase","moodle-mod_chamado-util-slot","moodle-core-notification-ajaxexception"]},"moodle-mod_chamado-modform":{"requires":["base","node","event"]},"moodle-mod_chamado-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_chamado-util","querystring-parse"]},"moodle-mod_mediagallery-base":{"requires":["base","node","selector-css3","dd-constrain","dd-proxy","dd-drop","dd-plugin","moodle-core-notification","event"]},"moodle-mod_mediagallery-mediabox":{"requires":["base","node","selector-css3"]},"moodle-mod_quiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_quiz-util","querystring-parse"]},"moodle-mod_quiz-modform":{"requires":["base","node","event"]},"moodle-mod_quiz-util":{"requires":["node","moodle-core-actionmenu"],"use":["moodle-mod_quiz-util-base"],"submodules":{"moodle-mod_quiz-util-base":{},"moodle-mod_quiz-util-slot":{"requires":["node","moodle-mod_quiz-util-base"]},"moodle-mod_quiz-util-page":{"requires":["node","moodle-mod_quiz-util-base"]}}},"moodle-mod_quiz-quizbase":{"requires":["base","node"]},"moodle-mod_quiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-base","moodle-mod_quiz-util-page","moodle-mod_quiz-util-slot","moodle-course-util"]},"moodle-mod_quiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form"]},"moodle-message_airnotifier-toolboxes":{"requires":["base","node","io"]},"moodle-filter_glossary-autolinker":{"requires":["base","node","io-base","json-parse","event-delegate","overlay","moodle-core-event","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-filter_mathjaxloader-loader":{"requires":["moodle-core-event"]},"moodle-editor_atto-editor":{"requires":["node","transition","io","overlay","escape","event","event-simulate","event-custom","node-event-html5","node-event-simulate","yui-throttle","moodle-core-notification-dialogue","moodle-core-notification-confirm","moodle-editor_atto-rangy","handlebars","timers","querystring-stringify"]},"moodle-editor_atto-plugin":{"requires":["node","base","escape","event","event-outside","handlebars","event-custom","timers","moodle-editor_atto-menu"]},"moodle-editor_atto-menu":{"requires":["moodle-core-notification-dialogue","node","event","event-custom"]},"moodle-editor_atto-rangy":{"requires":[]},"moodle-report_eventlist-eventfilter":{"requires":["base","event","node","node-event-delegate","datatable","autocomplete","autocomplete-filters"]},"moodle-report_loglive-fetchlogs":{"requires":["base","event","node","io","node-event-delegate"]},"moodle-gradereport_grader-gradereporttable":{"requires":["base","node","event","handlebars","overlay","event-hover"]},"moodle-gradereport_history-userselector":{"requires":["escape","event-delegate","event-key","handlebars","io-base","json-parse","moodle-core-notification-dialogue"]},"moodle-tool_capability-search":{"requires":["base","node"]},"moodle-tool_lp-dragdrop-reorder":{"requires":["moodle-core-dragdrop"]},"moodle-tool_monitor-dropdown":{"requires":["base","event","node"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","transition","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-alert","moodle-core-notification-warning","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-atto_accessibilitychecker-button":{"requires":["color-base","moodle-editor_atto-plugin"]},"moodle-atto_accessibilityhelper-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_align-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bold-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_charmap-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_clear-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_collapse-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emojipicker-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emoticon-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_equation-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_h5p-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_html-button":{"requires":["promise","moodle-editor_atto-plugin","moodle-atto_html-beautify","moodle-atto_html-codemirror","event-valuechange"]},"moodle-atto_html-beautify":{},"moodle-atto_html-codemirror":{"requires":["moodle-atto_html-codemirror-skin"]},"moodle-atto_image-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_indent-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_italic-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_link-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-usedfiles":{"requires":["node","escape"]},"moodle-atto_media-button":{"requires":["moodle-editor_atto-plugin","moodle-form-shortforms"]},"moodle-atto_noautolink-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_orderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_recordrtc-button":{"requires":["moodle-editor_atto-plugin","moodle-atto_recordrtc-recording"]},"moodle-atto_recordrtc-recording":{"requires":["moodle-atto_recordrtc-button"]},"moodle-atto_rtl-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_strike-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_styles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_subscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_superscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_table-button":{"requires":["moodle-editor_atto-plugin","moodle-editor_atto-menu","event","event-valuechange"]},"moodle-atto_teamsmeeting-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_title-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_underline-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_undo-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_unorderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_wiris-button":{"requires":["moodle-editor_atto-plugin","get"]}}},"gallery":{"name":"gallery","base":"https:\/\/ufprvirtual.ufpr.br\/lib\/yuilib\/gallery\/","combine":true,"comboBase":"https:\/\/ufprvirtual.ufpr.br\/theme\/yui_combo.php?","ext":false,"root":"gallery\/1627934520\/","patterns":{"gallery-":{"group":"gallery"}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"https:\/\/ufprvirtual.ufpr.br\/lib\/javascript.php\/1627934520\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker","moodle-core-notification-dialogue"]},"core_comment":{"name":"core_comment","fullpath":"https:\/\/ufprvirtual.ufpr.br\/lib\/javascript.php\/1627934520\/comment\/comment.js","requires":["base","io-base","node","json","yui2-animation","overlay","escape"]},"mathjax":{"name":"mathjax","fullpath":"https:\/\/cdn.jsdelivr.net\/npm\/mathjax@2.7.8\/MathJax.js?delayStartupUntil=configured"},"core_question_flags":{"name":"core_question_flags","fullpath":"https:\/\/ufprvirtual.ufpr.br\/lib\/javascript.php\/1627934520\/question\/flags.js","requires":["base","dom","event-delegate","io-base"]},"core_question_engine":{"name":"core_question_engine","fullpath":"https:\/\/ufprvirtual.ufpr.br\/lib\/javascript.php\/1627934520\/question\/qengine.js","requires":["node","event"]},"mod_quiz":{"name":"mod_quiz","fullpath":"https:\/\/ufprvirtual.ufpr.br\/lib\/javascript.php\/1627934520\/mod\/quiz\/module.js","requires":["base","dom","event-delegate","event-key","core_question_engine","moodle-core-formchangechecker"]}}};
+M.yui.loader = {modules: {}};
+
+//]]>
+</script>
+
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-164264713-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-164264713-2');
+</script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+</head>
+
+<body  id="page-mod-quiz-attempt" class="format-timelines  path-mod path-mod-quiz chrome dir-ltr lang-pt_br yui-skin-sam yui3-skin-sam ufprvirtual-ufpr-br pagelayout-incourse course-16981 context-840935 cmid-413386 category-790 ">
+
+<div id="page-wrapper">
+
+    <div>
+    <a class="sr-only sr-only-focusable" href="#maincontent">Ir para o conteúdo principal</a>
+</div><script src="https://ufprvirtual.ufpr.br/lib/javascript.php/1627934520/lib/babel-polyfill/polyfill.min.js"></script>
+<script src="https://ufprvirtual.ufpr.br/lib/javascript.php/1627934520/lib/polyfills/polyfill.js"></script>
+<script src="https://ufprvirtual.ufpr.br/theme/yui_combo.php?rollup/3.17.2/yui-moodlesimple-min.js"></script><script src="https://ufprvirtual.ufpr.br/lib/javascript.php/1627934520/lib/javascript-static.js"></script>
+<script>
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+
+
+    
+    <nav class="fixed-top navbar navbar-light navbar-expand moodle-has-zindex">
+        
+      
+      <nav class="fixed-top"> 
+          <div id="barra-brasil" style="background:#7F7F7F; height: 20px; padding:0 0 0 10px;display:block;">
+              <ul id="menu-barra-temp" style="list-style:none;">
+                  <li style="display:inline; float:left;padding-right:10px; margin-right:10px; border-right:1px solid #EDEDED">
+                      <a href="http://brasil.gov.br" style="font-family:sans,sans-serif; text-decoration:none; color:white;">Portal do Governo Brasileiro</a>
+                  </li>
+              </ul>
+          </div>
+      </nav>        
+            <div  data-region="drawer-toggle" class="navdraweropen-secundary">
+                <button aria-expanded="false" aria-controls="nav-drawer" type="button" class="btn nav-link float-sm-left mr-1" data-action="toggle-drawer" data-side="left" data-preference="drawer-open-nav"><i class="slicon-menu"></i><span class="sr-only">Painel lateral</span></button>
+            </div>
+        
+        <a href="https://ufprvirtual.ufpr.br" class="navbar-brand has-logo
+                ">
+                <span class="logo d-none d-sm-inline">
+                    <img src="https://ufprvirtual.ufpr.br/theme/image.php/ufprvirtual/theme_ufprvirtual/1627934520/logo" alt="UFPR Virtual">
+                </span>
+                   
+            
+                <span class="site-name">UFPR Virtual</span> 
+            
+        </a>
+    
+        <ul class="navbar-nav d-none d-md-flex custom-menus">
+            <!-- custom_menu -->
+            
+            <!-- page_heading_menu -->
+            
+        </ul>
+        <ul class="nav navbar-nav ml-auto">
+            <div class="d-none d-lg-block">
+                
+            </div>
+             <li class="nav-item access-menu">
+                 <span class="dropdown nav-item">
+                     <a class="dropdown nav-link" href="javascript:(function(){d=document;jf=d.createElement('script');jf.src=('https:'==document.location.protocol?'https://ssl.atbar.org/c':'http://c.atbar.org')+'/ATBar2/ATBar.min.user.js';jf.type='text/javascript';jf.id='ToolBar';d.getElementsByTagName('head')[0].appendChild(jf);})();" title="Launch ATbar to adjust this webpage, have it read aloud and other functions.">
+                         <img class="icon " alt="Acessibilidade" title="Acessibilidade" src="https://ufprvirtual.ufpr.br/theme/image.php/ufprvirtual/theme_ufprvirtual/1627934520/acessibilidadeicon" />
+                     </a>
+                 </span>
+             </li>   
+            <li class="nav-item lang-menu">
+                <div class="dropdown nav-item">
+    <a class="dropdown-toggle nav-link" id="drop-down-6111e96fb64e46111e96faa15a8" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
+        <i class="slicon-globe"></i>
+    </a>
+    <div class="dropdown-menu" aria-labelledby="drop-down-6111e96fb64e46111e96faa15a8">
+                <a class="dropdown-item" href="https://ufprvirtual.ufpr.br/mod/quiz/attempt.php?attempt=441792&amp;cmid=413386&amp;lang=en" title="English ‎(en)‎">English ‎(en)‎</a>
+                <a class="dropdown-item" href="https://ufprvirtual.ufpr.br/mod/quiz/attempt.php?attempt=441792&amp;cmid=413386&amp;lang=fr" title="Français ‎(fr)‎">Français ‎(fr)‎</a>
+                <a class="dropdown-item" href="https://ufprvirtual.ufpr.br/mod/quiz/attempt.php?attempt=441792&amp;cmid=413386&amp;lang=pt_br" title="Português - Brasil ‎(pt_br)‎">Português - Brasil ‎(pt_br)‎</a>
+    </div>
+</div>
+            </li>
+    
+            <div class="popover-region collapsed popover-region-notifications"
+    id="nav-notification-popover-container" data-userid="12740"
+    data-region="popover-region">
+    <div class="popover-region-toggle nav-link"
+        data-region="popover-region-toggle"
+        role="button"
+        aria-controls="popover-region-container-6111e96fb73fa6111e96faa15a9"
+        aria-haspopup="true"
+        aria-label="Mostrar janela de notificações sem as novas notificações"
+        tabindex="0">
+                <i class="slicon-bell" title="Alternar menu de notificações"></i>
+        <div class="count-container hidden" data-region="count-container">0</div>
+
+    </div>
+    <div 
+        id="popover-region-container-6111e96fb73fa6111e96faa15a9"
+        class="popover-region-container"
+        data-region="popover-region-container"
+        aria-expanded="false"
+        aria-hidden="true"
+        aria-label="Janela de notificação"
+        role="region">
+        <div class="popover-region-header-container">
+            <h3 class="popover-region-header-text" data-region="popover-region-header-text">Notificações</h3>
+            <div class="popover-region-header-actions" data-region="popover-region-header-actions">        <div class="hover-tooltip-container">
+                    <a class="mark-all-read-button"
+                    href="#"
+                    title="Marcar tudo como lido"
+                    data-action="mark-all-read"
+                    role="button">
+                    <span class="normal-icon"><i class="slicon-check" alt="Marcar tudo como lido"></i></span>
+                    <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw "  title="Carregando" aria-label="Carregando"></i></span>
+                </a>
+
+    <div class="hover-tooltip">
+        Marcar tudo como lido
+    </div>
+</div>
+        <div class="hover-tooltip-container">
+                    <a href="https://ufprvirtual.ufpr.br/message/notificationpreferences.php?userid=12740"
+                    title="Preferências de notificação">
+                    <i class="slicon-settings" alt="Preferências de notificação"></i>
+                </a>
+
+    <div class="hover-tooltip">
+        Preferências de notificação
+    </div>
+</div>
+</div>
+        </div>
+        <div class="popover-region-content-container" data-region="popover-region-content-container">
+            <div class="popover-region-content" data-region="popover-region-content">
+                        <div class="all-notifications"
+            data-region="all-notifications"
+            role="log"
+            aria-busy="false"
+            aria-atomic="false"
+            aria-relevant="additions"></div>
+        <div class="empty-message" tabindex="0" data-region="empty-message">Você não tem nenhuma notificação</div>
+
+            </div>
+            <span class="loading-icon icon-no-margin"><i class="icon fa fa-circle-o-notch fa-spin fa-fw "  title="Carregando" aria-label="Carregando"></i></span>
+        </div>
+                <a class="see-all-link"
+                    href="https://ufprvirtual.ufpr.br/message/output/popup/notifications.php">
+                    <div class="popover-region-footer-container">
+                        <div class="popover-region-seeall-text">Mostrar todos</div>
+                    </div>
+                </a>
+    </div>
+</div><div class="popover-region collapsed" data-region="popover-region-messages">
+    <a id="message-drawer-toggle-6111e96fb89346111e96faa15a10" class="nav-link d-inline-block popover-region-toggle position-relative" href="#"
+            role="button">
+        <i class="icon fa slicon-bubble fa-fw "  title="Alternar menu de mensagens" aria-label="Alternar menu de mensagens"></i>
+        <div class="count-container hidden" data-region="count-container"
+        aria-label="Há 0 conversas não lidas">0</div>
+    </a>
+    <span class="sr-only sr-only-focusable" data-region="jumpto" tabindex="-1"></span></div>
+    
+            <li class="usermenu"><div class="action-menu moodle-actionmenu nowrap-items d-inline" id="action-menu-1" data-enhance="moodle-core-actionmenu">
+
+        <div class="menubar d-flex " id="action-menu-1-menubar" role="menubar">
+
+            
+
+
+                <div class="action-menu-trigger">
+                    <div class="dropdown">
+                        <a href="#" tabindex="0" class="d-inline-block  dropdown-toggle icon-no-margin" id="action-menu-toggle-1" aria-label="" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" aria-controls="action-menu-1-menu">
+                            
+                            <span class="userbutton"><span class="usertext"></span><span class="avatars"><span class="avatar current"><img src="https://ufprvirtual.ufpr.br/theme/image.php/ufprvirtual/core/1627934520/u/f2" class="userpicture defaultuserpic" width="35" height="35" alt="" /></span></span></span>
+                                
+                            <b class="caret"></b>
+                        </a>
+                            <div class="dropdown-menu dropdown-menu-right menu  align-tr-br" id="action-menu-1-menu" data-rel="menu-content" aria-labelledby="action-menu-toggle-1" role="menu" data-align="tr-br">
+                                                                <a href="https://ufprvirtual.ufpr.br/user/profile.php?id=12740" class="dropdown-item text-username menu-action" role="menuitem" aria-labelledby="actionmenuaction-1">
+                                <i class="icon fa slicon-user fa-fw "  title="Lincoln Souza Linhares" aria-label="Lincoln Souza Linhares"></i>
+                                <span class="menu-action-text" id="actionmenuaction-1">Lincoln Souza Linhares</span>
+                        </a>
+                    <div class="dropdown-divider" role="presentation"><span class="filler">&nbsp;</span></div>
+                                                                <a href="https://ufprvirtual.ufpr.br/my/" class="dropdown-item menu-action" role="menuitem" data-title="mymoodle,admin" aria-labelledby="actionmenuaction-2">
+                                <i class="icon fa slicon-speedometer fa-fw "  title="Painel" aria-label="Painel"></i>
+                                <span class="menu-action-text" id="actionmenuaction-2">Painel</span>
+                        </a>
+                                                                <a href="https://ufprvirtual.ufpr.br/user/profile.php?id=12740" class="dropdown-item menu-action" role="menuitem" data-title="profile,moodle" aria-labelledby="actionmenuaction-3">
+                                <i class="icon fa slicon-user fa-fw "  title="Perfil" aria-label="Perfil"></i>
+                                <span class="menu-action-text" id="actionmenuaction-3">Perfil</span>
+                        </a>
+                                                                <a href="https://ufprvirtual.ufpr.br/grade/report/overview/index.php" class="dropdown-item menu-action" role="menuitem" data-title="grades,grades" aria-labelledby="actionmenuaction-4">
+                                <i class="icon fa slicon-book-open fa-fw "  title="Notas" aria-label="Notas"></i>
+                                <span class="menu-action-text" id="actionmenuaction-4">Notas</span>
+                        </a>
+                                                                <a href="https://ufprvirtual.ufpr.br/message/index.php" class="dropdown-item menu-action" role="menuitem" data-title="messages,message" aria-labelledby="actionmenuaction-5">
+                                <i class="icon fa slicon-bubble fa-fw "  title="Mensagens" aria-label="Mensagens"></i>
+                                <span class="menu-action-text" id="actionmenuaction-5">Mensagens</span>
+                        </a>
+                                                                <a href="https://ufprvirtual.ufpr.br/user/preferences.php" class="dropdown-item menu-action" role="menuitem" data-title="preferences,moodle" aria-labelledby="actionmenuaction-6">
+                                <i class="icon fa slicon-wrench fa-fw "  title="Preferências" aria-label="Preferências"></i>
+                                <span class="menu-action-text" id="actionmenuaction-6">Preferências</span>
+                        </a>
+                    <div class="dropdown-divider" role="presentation"><span class="filler">&nbsp;</span></div>
+                                                                <a href="https://ufprvirtual.ufpr.br/login/logout.php?sesskey=qZFwbRAj8P" class="dropdown-item menu-action" role="menuitem" data-title="logout,moodle" aria-labelledby="actionmenuaction-7">
+                                <i class="icon fa slicon-logout fa-fw "  title="Sair" aria-label="Sair"></i>
+                                <span class="menu-action-text" id="actionmenuaction-7">Sair</span>
+                        </a>
+                            </div>
+                    </div>
+                </div>
+
+        </div>
+
+</div></li>
+        </ul>
+    </nav>
+
+    <div id="page" class="container-fluid">
+        <header id="page-header" class="row">
+    <div class="col-12 pt-3 pb-3">
+        <div class="card ">
+            <div class="card-body ">
+                <div class="d-flex align-items-center">
+                    <div class="mr-auto">
+                        <div class="page-context-header"><div class="page-header-headings"><h1>ERE3 - Cálculo2</h1></div></div>
+                    </div>
+
+                    <div class="header-actions-container flex-shrink-0" data-region="header-actions-container">
+                    </div>
+                </div>
+                <div class="d-flex flex-wrap">
+                    <div id="page-navbar">
+                        <nav role="navigation">
+    <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="https://ufprvirtual.ufpr.br/my/" >Painel</a></li>
+                <li class="breadcrumb-item"><span class="no-link">Minhas salas</span></li>
+                <li class="breadcrumb-item"><a href="https://ufprvirtual.ufpr.br/course/view.php?id=16981" title="ERE3 - Cálculo2">ERE3_Calculo2_2021</a></li>
+                <li class="breadcrumb-item"><a href="https://ufprvirtual.ufpr.br/course/view.php?id=16981&amp;section=3" >Módulo 2 - Cálculo Diferencial</a></li>
+                <li class="breadcrumb-item"><a href="https://ufprvirtual.ufpr.br/mod/quiz/view.php?id=413386" title="Questionário">Teste seus conhecimentos do módulo</a></li>
+    </ol>
+</nav>
+                    </div>
+                    <div class="ml-auto d-flex">
+                        
+                    </div>
+                    <div id="course-header">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+        <div id="page-content" class="row">
+            <div id="region-main-box" class="col-md-9 col-sm-12 col-12">
+                <section id="region-main">
+                    <div class="card">
+                        <div class="card-body">
+                            <span class="notifications" id="user-notifications"></span>
+                            <div role="main"><span id="maincontent"></span><form action="https://ufprvirtual.ufpr.br/mod/quiz/processattempt.php?cmid=413386" method="post" enctype="multipart/form-data" accept-charset="utf-8" id="responseform"><div><div id="question-530200-5" class="que multichoice deferredfeedback answersaved"><div class="info"><h3 class="no">Questão <span class="qno">1</span></h3><div class="state">Resposta salva</div><div class="grade">Vale 2,00 ponto(s).</div><div class="questionflag editable" aria-atomic="true" aria-relevant="text" aria-live="assertive"><input type="hidden" name="q530200:5_:flagged" value="0" /><input type="checkbox" id="q530200:5_:flaggedcheckbox" name="q530200:5_:flagged" value="1" /><input type="hidden" value="qaid=3104103&amp;qubaid=530200&amp;qid=35642767&amp;slot=5&amp;checksum=ecea953067f983ee089d536dd2c6c518&amp;sesskey=qZFwbRAj8P&amp;newstate=" class="questionflagpostdata" /><label id="q530200:5_:flaggedlabel" for="q530200:5_:flaggedcheckbox"><img src="https://ufprvirtual.ufpr.br/theme/image.php/ufprvirtual/core/1627934520/i/unflagged" alt="Não marcada" class="questionflagimage" id="q530200:5_:flaggedimg" /><span>Marcar questão</span></label>
+</div></div><div class="content"><div class="formulation clearfix"><h4 class="accesshide">Texto da questão</h4><input type="hidden" name="q530200:5_:sequencecheck" value="1" /><div class="qtext"><span class="filter_mathjaxloader_equation">Seja <span class="nolink">\( c(t)=(x(t),y(t)) \)</span> a curva no plano definida por <span class="nolink">\( x(t) = \mathrm{ln}(4t + 1) \)</span> e <span class="nolink">\( y(t) = \mathrm{ln}(4t + 1) \)</span>. Seja <span class="nolink">\( f(x,y) \)</span> uma função de duas variáveis tal que <span class="nolink">\( \vec{\nabla} f(0,0) = (4 , 4) \)</span>. Então <span class="nolink">\( \dfrac{d}{dt} f(x(t),y(t))\Bigg \rvert_{t=0} \)</span> é igual a:</span></div><div class="ablock"><div class="prompt">Escolha uma opção:</div><div class="answer"><div class="r0"><input type="radio" name="q530200:5_answer" value="0" id="q530200:5_answer0" aria-labelledby="q530200:5_answer0_label" /><div class="d-flex w-100" id="q530200:5_answer0_label" data-region="answer-label"><span class="answernumber">a. </span><div class="flex-fill ml-1"><span class="filter_mathjaxloader_equation"><span class="nolink">\( 32 \)</span></span></div></div> </div>
+<div class="r1"><input type="radio" name="q530200:5_answer" value="1" id="q530200:5_answer1" aria-labelledby="q530200:5_answer1_label" checked="checked" /><div class="d-flex w-100" id="q530200:5_answer1_label" data-region="answer-label"><span class="answernumber">b. </span><div class="flex-fill ml-1"><span class="filter_mathjaxloader_equation"><span class="nolink">\( 34 \)</span></span></div></div> </div>
+<div class="r0"><input type="radio" name="q530200:5_answer" value="2" id="q530200:5_answer2" aria-labelledby="q530200:5_answer2_label" /><div class="d-flex w-100" id="q530200:5_answer2_label" data-region="answer-label"><span class="answernumber">c. </span><div class="flex-fill ml-1"><span class="filter_mathjaxloader_equation"><span class="nolink">\( 30 \)</span></span></div></div> </div>
+<div class="r1"><input type="radio" name="q530200:5_answer" value="3" id="q530200:5_answer3" aria-labelledby="q530200:5_answer3_label" /><div class="d-flex w-100" id="q530200:5_answer3_label" data-region="answer-label"><span class="answernumber">d. </span><div class="flex-fill ml-1"><span class="filter_mathjaxloader_equation"><span class="nolink">\( 2 \)</span></span></div></div> </div>
+<div class="r0"><input type="radio" name="q530200:5_answer" value="4" id="q530200:5_answer4" aria-labelledby="q530200:5_answer4_label" /><div class="d-flex w-100" id="q530200:5_answer4_label" data-region="answer-label"><span class="answernumber">e. </span><div class="flex-fill ml-1"><span class="filter_mathjaxloader_equation"><span class="nolink">\( 28 \)</span></span></div></div> </div>
+</div><div id="q530200:5_clearchoice" class="qtype_multichoice_clearchoice"><input type="radio" name="q530200:5_answer" id="q530200:5_answer-1" value="-1" class="sr-only" aria-hidden="true" /><label for="q530200:5_answer-1"><a tabindex="0" role="button" class="btn btn-link ml-3 mt-n1 mb-n1" href="#">Limpar minha escolha</a></label></div></div></div></div></div><div id="question-530200-6" class="que numerical deferredfeedback notyetanswered"><div class="info"><h3 class="no">Questão <span class="qno">2</span></h3><div class="state">Ainda não respondida</div><div class="grade">Vale 2,00 ponto(s).</div><div class="questionflag editable" aria-atomic="true" aria-relevant="text" aria-live="assertive"><input type="hidden" name="q530200:6_:flagged" value="0" /><input type="checkbox" id="q530200:6_:flaggedcheckbox" name="q530200:6_:flagged" value="1" /><input type="hidden" value="qaid=3104104&amp;qubaid=530200&amp;qid=37372420&amp;slot=6&amp;checksum=865c6f4a5ca003bd5ae92274ca17aa99&amp;sesskey=qZFwbRAj8P&amp;newstate=" class="questionflagpostdata" /><label id="q530200:6_:flaggedlabel" for="q530200:6_:flaggedcheckbox"><img src="https://ufprvirtual.ufpr.br/theme/image.php/ufprvirtual/core/1627934520/i/unflagged" alt="Não marcada" class="questionflagimage" id="q530200:6_:flaggedimg" /><span>Marcar questão</span></label>
+</div></div><div class="content"><div class="formulation clearfix"><h4 class="accesshide">Texto da questão</h4><input type="hidden" name="q530200:6_:sequencecheck" value="1" /><div class="qtext"><span class="filter_mathjaxloader_equation"><p>Dada <span class="nolink">\( f(x,y) = {\rm sen}(x) + {\rm cos}(y) \)</span> e <span class="nolink">\( \vec v \)</span> um vetor unitário formando ângulo de <span class="nolink">\( \theta \)</span> com o eixo <span class="nolink">\( x \)</span>. Qual deve ser o valor de <span class="nolink">\(\theta \)</span>, (com <span class="nolink">\( 0 \leqslant \theta \leqslant 360 \)</span> ) para que a derivada direcional <span class="nolink">\(\displaystyle{\frac{\partial f}{\partial \vec v}(0,\pi / 2)} \)</span> seja igual a <span class="nolink">\( \sqrt{2} \)</span>?&nbsp;<br></p><p><br></p><p>(OBS: A resposta deve ser dada em graus e deve conter apenas um número inteiro. Por exemplo, caso a medida do ângulo seja 210 graus, então a resposta deverá conter apenas o número inteiro 210.)</p></span></div><div class="ablock form-inline"><label for="q530200:6_answer">Resposta:</label><span class="answer"><input type="text" name="q530200:6_answer" id="q530200:6_answer" size="30" class="form-control d-inline" /></span></div></div></div></div><div id="question-530200-3" class="que numerical deferredfeedback notyetanswered"><div class="info"><h3 class="no">Questão <span class="qno">3</span></h3><div class="state">Ainda não respondida</div><div class="grade">Vale 2,00 ponto(s).</div><div class="questionflag editable" aria-atomic="true" aria-relevant="text" aria-live="assertive"><input type="hidden" name="q530200:3_:flagged" value="0" /><input type="checkbox" id="q530200:3_:flaggedcheckbox" name="q530200:3_:flagged" value="1" /><input type="hidden" value="qaid=3104101&amp;qubaid=530200&amp;qid=35644132&amp;slot=3&amp;checksum=0fe421ef627f078636947fdbbccda705&amp;sesskey=qZFwbRAj8P&amp;newstate=" class="questionflagpostdata" /><label id="q530200:3_:flaggedlabel" for="q530200:3_:flaggedcheckbox"><img src="https://ufprvirtual.ufpr.br/theme/image.php/ufprvirtual/core/1627934520/i/unflagged" alt="Não marcada" class="questionflagimage" id="q530200:3_:flaggedimg" /><span>Marcar questão</span></label>
+</div></div><div class="content"><div class="formulation clearfix"><h4 class="accesshide">Texto da questão</h4><input type="hidden" name="q530200:3_:sequencecheck" value="1" /><div class="qtext"><span class="filter_mathjaxloader_equation"><p>Seja <span class="nolink">\(f(x,y) = x^4 y^2\)</span>. Determine o valor de <span class="nolink">\(K\)</span> para que <span class="nolink">\(f\)</span> satisfaça a equação&nbsp;&nbsp; diferencial <br><span class="nolink">\(<br>&nbsp;x\frac{\partial f}{\partial x} + <br>&nbsp;y\frac{\partial f}{\partial y} <br>&nbsp;=<br>&nbsp;Kf \, .<br>\)</span><br></p></span></div><div class="ablock form-inline"><label for="q530200:3_answer">Resposta:</label><span class="answer"><input type="text" name="q530200:3_answer" id="q530200:3_answer" size="30" class="form-control d-inline" /></span></div></div></div></div><div id="question-530200-2" class="que numerical deferredfeedback notyetanswered"><div class="info"><h3 class="no">Questão <span class="qno">4</span></h3><div class="state">Ainda não respondida</div><div class="grade">Vale 1,00 ponto(s).</div><div class="questionflag editable" aria-atomic="true" aria-relevant="text" aria-live="assertive"><input type="hidden" name="q530200:2_:flagged" value="0" /><input type="checkbox" id="q530200:2_:flaggedcheckbox" name="q530200:2_:flagged" value="1" /><input type="hidden" value="qaid=3104100&amp;qubaid=530200&amp;qid=35643914&amp;slot=2&amp;checksum=cf27b0d737c84c93fb0ed52a084a10cf&amp;sesskey=qZFwbRAj8P&amp;newstate=" class="questionflagpostdata" /><label id="q530200:2_:flaggedlabel" for="q530200:2_:flaggedcheckbox"><img src="https://ufprvirtual.ufpr.br/theme/image.php/ufprvirtual/core/1627934520/i/unflagged" alt="Não marcada" class="questionflagimage" id="q530200:2_:flaggedimg" /><span>Marcar questão</span></label>
+</div></div><div class="content"><div class="formulation clearfix"><h4 class="accesshide">Texto da questão</h4><input type="hidden" name="q530200:2_:sequencecheck" value="1" /><div class="qtext"><span class="filter_mathjaxloader_equation"><p>Calcule o valor do limite <span class="nolink">\(&nbsp; \displaystyle{ {\rm lim}_{(x,y)\to(0,0)} \frac{-48 xy}{2x^2+2y^2} } \)</span> quando nos aproximamos de <span class="nolink">\( (0,0)\)</span> pelo caminho <span class="nolink">\( \gamma(t)=(-t,t)\)</span>.<br></p></span></div><div class="ablock form-inline"><label for="q530200:2_answer">Resposta:</label><span class="answer"><input type="text" name="q530200:2_answer" id="q530200:2_answer" size="30" class="form-control d-inline" /></span></div></div></div></div><div id="question-530200-1" class="que multichoice deferredfeedback notyetanswered"><div class="info"><h3 class="no">Questão <span class="qno">5</span></h3><div class="state">Ainda não respondida</div><div class="grade">Vale 1,00 ponto(s).</div><div class="questionflag editable" aria-atomic="true" aria-relevant="text" aria-live="assertive"><input type="hidden" name="q530200:1_:flagged" value="0" /><input type="checkbox" id="q530200:1_:flaggedcheckbox" name="q530200:1_:flagged" value="1" /><input type="hidden" value="qaid=3104099&amp;qubaid=530200&amp;qid=35644194&amp;slot=1&amp;checksum=30fe3cfa9bf9a23e5689a617ed510711&amp;sesskey=qZFwbRAj8P&amp;newstate=" class="questionflagpostdata" /><label id="q530200:1_:flaggedlabel" for="q530200:1_:flaggedcheckbox"><img src="https://ufprvirtual.ufpr.br/theme/image.php/ufprvirtual/core/1627934520/i/unflagged" alt="Não marcada" class="questionflagimage" id="q530200:1_:flaggedimg" /><span>Marcar questão</span></label>
+</div></div><div class="content"><div class="formulation clearfix"><h4 class="accesshide">Texto da questão</h4><input type="hidden" name="q530200:1_:sequencecheck" value="1" /><div class="qtext"><span class="filter_mathjaxloader_equation">O domínio natural da função de duas variáveis <span class="nolink">\( f(x,y) = \frac{\sqrt{ 4 x^{2}+y^{2} }}{ x y } \)</span> é</span></div><div class="ablock"><div class="prompt">Escolha uma opção:</div><div class="answer"><div class="r0"><input type="radio" name="q530200:1_answer" value="0" id="q530200:1_answer0" aria-labelledby="q530200:1_answer0_label" /><div class="d-flex w-100" id="q530200:1_answer0_label" data-region="answer-label"><span class="answernumber">a. </span><div class="flex-fill ml-1">O plano menos uma reta.</div></div> </div>
+<div class="r1"><input type="radio" name="q530200:1_answer" value="1" id="q530200:1_answer1" aria-labelledby="q530200:1_answer1_label" /><div class="d-flex w-100" id="q530200:1_answer1_label" data-region="answer-label"><span class="answernumber">b. </span><div class="flex-fill ml-1">Um círculo.</div></div> </div>
+<div class="r0"><input type="radio" name="q530200:1_answer" value="2" id="q530200:1_answer2" aria-labelledby="q530200:1_answer2_label" /><div class="d-flex w-100" id="q530200:1_answer2_label" data-region="answer-label"><span class="answernumber">c. </span><div class="flex-fill ml-1">O plano menos duas retas que se interceptam.</div></div> </div>
+<div class="r1"><input type="radio" name="q530200:1_answer" value="3" id="q530200:1_answer3" aria-labelledby="q530200:1_answer3_label" /><div class="d-flex w-100" id="q530200:1_answer3_label" data-region="answer-label"><span class="answernumber">d. </span><div class="flex-fill ml-1">O exterior de um círculo.</div></div> </div>
+<div class="r0"><input type="radio" name="q530200:1_answer" value="4" id="q530200:1_answer4" aria-labelledby="q530200:1_answer4_label" /><div class="d-flex w-100" id="q530200:1_answer4_label" data-region="answer-label"><span class="answernumber">e. </span><div class="flex-fill ml-1">O plano menos duas retas paralelas.</div></div> </div>
+</div><div id="q530200:1_clearchoice" class="qtype_multichoice_clearchoice sr-only" aria-hidden="true"><input type="radio" name="q530200:1_answer" id="q530200:1_answer-1" value="-1" class="sr-only" aria-hidden="true" checked="checked" /><label for="q530200:1_answer-1"><a tabindex="-1" role="button" class="btn btn-link ml-3 mt-n1 mb-n1" href="#">Limpar minha escolha</a></label></div></div></div></div></div><div id="question-530200-4" class="que calculatedsimple deferredfeedback notyetanswered"><div class="info"><h3 class="no">Questão <span class="qno">6</span></h3><div class="state">Ainda não respondida</div><div class="grade">Vale 2,00 ponto(s).</div><div class="questionflag editable" aria-atomic="true" aria-relevant="text" aria-live="assertive"><input type="hidden" name="q530200:4_:flagged" value="0" /><input type="checkbox" id="q530200:4_:flaggedcheckbox" name="q530200:4_:flagged" value="1" /><input type="hidden" value="qaid=3104102&amp;qubaid=530200&amp;qid=35644068&amp;slot=4&amp;checksum=f6ea0f20c297167481627611906426ec&amp;sesskey=qZFwbRAj8P&amp;newstate=" class="questionflagpostdata" /><label id="q530200:4_:flaggedlabel" for="q530200:4_:flaggedcheckbox"><img src="https://ufprvirtual.ufpr.br/theme/image.php/ufprvirtual/core/1627934520/i/unflagged" alt="Não marcada" class="questionflagimage" id="q530200:4_:flaggedimg" /><span>Marcar questão</span></label>
+</div></div><div class="content"><div class="formulation clearfix"><h4 class="accesshide">Texto da questão</h4><input type="hidden" name="q530200:4_:sequencecheck" value="1" /><div class="qtext"><span class="filter_mathjaxloader_equation"><p>Um tanque aberto em forma de cone&nbsp; invertido foi medido visando estimar a quantidade de tinta necessária para pintá-lo, e foram obtidos os seguintes resultados:<br><br>&nbsp;- A abertura superior do tanque tem radio de 6 metros.<br>&nbsp;<br>&nbsp;- A profundidade é 12 metros.<br>&nbsp;<br>Cada uma destas medidas tem uma incerteza de 0,3 metros. Use a aproximação linear para estimar, até duas casas decimais, o erro máximo em metros cometido no cálculo da área total da superfície do tanque.<br><br>Observações: <br><br>- Lembre que o erro é em valor absoluto; assim, sempre será um número&nbsp; positivo.<br><br>- Área de um cone de raio da base <span class="nolink">\(r\)</span> e altura <span class="nolink">\(h\)</span>:&nbsp; <span class="nolink">\(\pi r\sqrt{r^2 + h^2}\)</span><br><br>- Pode usar&nbsp; a aproximação <span class="nolink">\(\pi \approx 3,14 \)</span>.<br><br>- Na caixa de resposta, só coloque o número, <b>não</b> as unidades.<br><br></p></span></div><div class="ablock form-inline"><label for="q530200:4_answer">Resposta:</label><span class="answer"><input type="text" name="q530200:4_answer" id="q530200:4_answer" size="30" class="form-control d-inline" /></span></div></div></div></div><div class="submitbtns"><input type="submit" name="next" value="Finalizar tentativa ..." class="mod_quiz-next-nav btn btn-primary" /></div><input type="hidden" name="attempt" value="441792" /><input type="hidden" name="thispage" value="0" id="followingpage" /><input type="hidden" name="nextpage" value="-1" /><input type="hidden" name="timeup" value="0" id="timeup" /><input type="hidden" name="sesskey" value="qZFwbRAj8P" /><input type="hidden" name="scrollpos" value="" id="scrollpos" /><input type="hidden" name="slots" value="5,6,3,2,1,4" /></div></form><div id="connection-error" style="display: none;" role="alert"><p>Conexão de rede perdida. (Salvamento automático falhou). Anote quaisquer respostas registradas nesta página nos últimos minutos e tente conectar-se novamente. Quando a conexão for restabelecida, suas respostas devem ser salvas e esta mensagem irá desaparecer.</p>
+</div><div id="connection-ok" style="display: none;" role="alert"><p>Conexão de rede restaurada. Você pode continuar com segurança.</p>
+</div></div>
+                            
+                        </div>
+                    </div>
+                </section>
+            </div>
+                <div class="col-md-3 col-sm-12 col-12">
+                    <aside id="block-region-side-pre" class="block-region" data-blockregion="side-pre" data-droptarget="1"><a href="#sb-1" class="sr-only sr-only-focusable">Pular &lt;span id=&quot;mod_quiz_navblock_title&quot;&gt;Navegação do questionário&lt;/span&gt;</a>
+
+<section id="mod_quiz_navblock"
+     class=" block block_fake  card mb-3"
+     role="navigation"
+     data-block="_fake"
+          aria-labelledby="instance-fakeid-6111e96faa9e4-header"
+     >
+
+    <div class="card-body p-3">
+
+            <h5 id="instance-fakeid-6111e96faa9e4-header" class="card-title d-inline"><span id="mod_quiz_navblock_title">Navegação do questionário</span></h5>
+
+
+        <div class="card-text content mt-3">
+            <div id="quiznojswarning">Atenção: esses links não vão salvar as suas respostas. Use o botão 'Próximo' na parte inferior da página.</div><div class="qn_buttons clearfix multipages"><a class="qnbutton answersaved free btn thispage" id="quiznavbutton5" title="Resposta salva" data-quiz-page="0" href="#"><span class="thispageholder"></span><span class="trafficlight"></span><span class="accesshide">Questão </span>1<span class="accesshide"> Esta página <span class="flagstate"></span></span></a><a class="qnbutton notyetanswered free btn thispage" id="quiznavbutton6" title="Ainda não respondida" data-quiz-page="0" href="#question-530200-6"><span class="thispageholder"></span><span class="trafficlight"></span><span class="accesshide">Questão </span>2<span class="accesshide"> Esta página <span class="flagstate"></span></span></a><a class="qnbutton notyetanswered free btn thispage" id="quiznavbutton3" title="Ainda não respondida" data-quiz-page="0" href="#question-530200-3"><span class="thispageholder"></span><span class="trafficlight"></span><span class="accesshide">Questão </span>3<span class="accesshide"> Esta página <span class="flagstate"></span></span></a><a class="qnbutton notyetanswered free btn thispage" id="quiznavbutton2" title="Ainda não respondida" data-quiz-page="0" href="#question-530200-2"><span class="thispageholder"></span><span class="trafficlight"></span><span class="accesshide">Questão </span>4<span class="accesshide"> Esta página <span class="flagstate"></span></span></a><a class="qnbutton notyetanswered free btn thispage" id="quiznavbutton1" title="Ainda não respondida" data-quiz-page="0" href="#question-530200-1"><span class="thispageholder"></span><span class="trafficlight"></span><span class="accesshide">Questão </span>5<span class="accesshide"> Esta página <span class="flagstate"></span></span></a><a class="qnbutton notyetanswered free btn thispage" id="quiznavbutton4" title="Ainda não respondida" data-quiz-page="0" href="#question-530200-4"><span class="thispageholder"></span><span class="trafficlight"></span><span class="accesshide">Questão </span>6<span class="accesshide"> Esta página <span class="flagstate"></span></span></a></div><div class="othernav"><a class="endtestlink aalink" href="https://ufprvirtual.ufpr.br/mod/quiz/summary.php?attempt=441792&amp;cmid=413386">Finalizar tentativa ...</a><div id="quiz-timer" role="timer" aria-atomic="true" aria-relevant="text">Tempo restante <span id="quiz-time-left"></span></div></div>
+            <div class="footer"></div>
+            
+        </div>
+
+    </div>
+
+</section>
+
+  <span id="sb-1"></span></aside>
+                </div>
+        </div>
+    </div>
+
+    <div id="nav-drawer" data-region="drawer" class="hidden-print moodle-has-zindex closed" aria-hidden="true" tabindex="-1">
+            <div id="btn-navdraweropen" data-region="drawer-toggle" class="d-inline-block mr-3 drawer-toggle">
+                <button aria-expanded="false" aria-controls="nav-drawer" type="button" class="btn nav-link float-sm-left mr-1" data-action="toggle-drawer" data-side="left" data-preference="drawer-open-nav"><i class="slicon-menu"></i><span class="sr-only">Painel lateral</span></button>
+            </div>
+        <ul class="list-group metismenu">
+                    <li class="list-group-item" data-key="course-sections">
+                        <a class="m-l-0 has-arrow" href="javascript:void(0);">
+                            <span class="text">Seções da disciplina</span>
+                        </a>
+                        <ul>
+                                    <li class="list-group-item list-group-item-action " data-key="111164">
+                                        <a class="list-group-item list-group-item-action " href="https://ufprvirtual.ufpr.br/course/view.php?id=16981&amp;section=1">
+                                            <span class="text">Apresentação</span>
+                                        </a>
+                                    </li>
+                                    <li class="list-group-item list-group-item-action " data-key="111165">
+                                        <a class="list-group-item list-group-item-action " href="https://ufprvirtual.ufpr.br/course/view.php?id=16981&amp;section=2">
+                                            <span class="text">Módulo 1 - Funções Vetoriais</span>
+                                        </a>
+                                    </li>
+                                    <li class="list-group-item list-group-item-action " data-key="111166">
+                                        <a class="list-group-item list-group-item-action " href="https://ufprvirtual.ufpr.br/course/view.php?id=16981&amp;section=3">
+                                            <span class="text">Módulo 2 - Cálculo Diferencial</span>
+                                        </a>
+                                    </li>
+                                    <li class="list-group-item list-group-item-action " data-key="111167">
+                                        <a class="list-group-item list-group-item-action " href="https://ufprvirtual.ufpr.br/course/view.php?id=16981&amp;section=4">
+                                            <span class="text">Módulo 3 - Máximos e Mínimos</span>
+                                        </a>
+                                    </li>
+                                    <li class="list-group-item list-group-item-action " data-key="111180">
+                                        <a class="list-group-item list-group-item-action " href="https://ufprvirtual.ufpr.br/course/view.php?id=16981&amp;section=5">
+                                            <span class="text">Módulo 4 - Integração</span>
+                                        </a>
+                                    </li>
+                                    <li class="list-group-item list-group-item-action " data-key="111181">
+                                        <a class="list-group-item list-group-item-action " href="https://ufprvirtual.ufpr.br/course/view.php?id=16981&amp;section=6">
+                                            <span class="text">Módulo 5 - Cálculo Vetorial</span>
+                                        </a>
+                                    </li>
+                                    <li class="list-group-item list-group-item-action " data-key="114035">
+                                        <a class="list-group-item list-group-item-action " href="https://ufprvirtual.ufpr.br/course/view.php?id=16981&amp;section=7">
+                                            <span class="text">Segundas Chamadas e Exame Final</span>
+                                        </a>
+                                    </li>
+                        </ul>
+                    </li>
+                        <li class="list-group-item list-group-item-action " data-key="participants">
+                            <a href="https://ufprvirtual.ufpr.br/user/index.php?id=16981">
+                                <span class="text m-l-0">Participantes</span>
+                            </a>
+                        </li>
+                        <li class="list-group-item list-group-item-action " data-key="certificates">
+                            <a href="https://ufprvirtual.ufpr.br/theme/moove/certificates.php?id=16981">
+                                <span class="text m-l-0">Certificados</span>
+                            </a>
+                        </li>
+                        <li class="list-group-item list-group-item-action " data-key="competencies">
+                            <a href="https://ufprvirtual.ufpr.br/admin/tool/lp/coursecompetencies.php?courseid=16981">
+                                <span class="text m-l-0">Competências</span>
+                            </a>
+                        </li>
+                        <li class="list-group-item list-group-item-action " data-key="grades">
+                            <a href="https://ufprvirtual.ufpr.br/grade/report/index.php?id=16981">
+                                <span class="text m-l-0">Notas</span>
+                            </a>
+                        </li>
+                </ul>
+                <ul class="list-group metismenu">
+                        <li class="list-group-item list-group-item-action " data-key="myhome">
+                            <a href="https://ufprvirtual.ufpr.br/my/">
+                                <span class="text m-l-0">Painel</span>
+                            </a>
+                        </li>
+                        <li class="list-group-item list-group-item-action " data-key="home">
+                            <a href="https://ufprvirtual.ufpr.br/?redirect=0">
+                                <span class="text m-l-0">Página inicial do site</span>
+                            </a>
+                        </li>
+                        <li class="list-group-item list-group-item-action " data-key="calendar">
+                            <a href="https://ufprvirtual.ufpr.br/calendar/view.php?view=month&amp;course=16981">
+                                <span class="text m-l-0">Calendário</span>
+                            </a>
+                        </li>
+                    <li class="list-group-item" data-key="mycourses">
+                        <a class="m-l-0 has-arrow" href="javascript:void(0);">
+                            <span class="text">Minhas salas</span>
+                        </a>
+                        <ul>
+                                    <li class="list-group-item list-group-item-action " data-key="14547">
+                                        <a class="list-group-item list-group-item-action " href="https://ufprvirtual.ufpr.br/course/view.php?id=14547">
+                                            <span class="text">PE2_CMCALCULO2_2020</span>
+                                        </a>
+                                    </li>
+                                    <li class="list-group-item list-group-item-action " data-key="4053">
+                                        <a class="list-group-item list-group-item-action " href="https://ufprvirtual.ufpr.br/course/view.php?id=4053">
+                                            <span class="text">CE084_2020_EST_352965</span>
+                                        </a>
+                                    </li>
+                                    <li class="list-group-item list-group-item-action " data-key="1876">
+                                        <a class="list-group-item list-group-item-action " href="https://ufprvirtual.ufpr.br/course/view.php?id=1876">
+                                            <span class="text">CM042_2020_EST_352963</span>
+                                        </a>
+                                    </li>
+                                    <li class="list-group-item list-group-item-action " data-key="10045">
+                                        <a class="list-group-item list-group-item-action " href="https://ufprvirtual.ufpr.br/course/view.php?id=10045">
+                                            <span class="text">PE_CE095_2020_357893</span>
+                                        </a>
+                                    </li>
+                                    <li class="list-group-item list-group-item-action " data-key="16981">
+                                        <a class="list-group-item list-group-item-action " href="https://ufprvirtual.ufpr.br/course/view.php?id=16981">
+                                            <span class="text">ERE3_Calculo2_2021</span>
+                                        </a>
+                                    </li>
+                                    <li class="list-group-item list-group-item-action " data-key="18951">
+                                        <a class="list-group-item list-group-item-action " href="https://ufprvirtual.ufpr.br/course/view.php?id=18951">
+                                            <span class="text">20202_CE083_394464</span>
+                                        </a>
+                                    </li>
+                                    <li class="list-group-item list-group-item-action " data-key="6123">
+                                        <a class="list-group-item list-group-item-action " href="https://ufprvirtual.ufpr.br/course/view.php?id=6123">
+                                            <span class="text">Estudantes</span>
+                                        </a>
+                                    </li>
+                        </ul>
+                    </li>
+                        <li class="list-group-item list-group-item-action " data-key="privatefiles">
+                            <a href="https://ufprvirtual.ufpr.br/user/files.php">
+                                <span class="text m-l-0">Meus arquivos</span>
+                            </a>
+                        </li>
+        </ul>    </div>
+
+</div>
+
+
+<div id="top-footer">
+  <div class="container-fluid">
+    <div class="row">
+        <div class="col-md-7 contact">
+            
+        </div>
+        <div class="col-md-5 social">
+            <div class="plugins_standard_footer_html"><div class="tool_dataprivacy"><a href="https://ufprvirtual.ufpr.br/admin/tool/dataprivacy/summary.php">Resumo de retenção de dados</a></div><div><p style="margin-bottom:0px">Obter o aplicativo para dispositivos móveis</p><a title="Obter o aplicativo para dispositivos móveis" href="https://play.google.com/store/apps/details?id=br.ufpr.ufprvirtual&amp;hl=pt-pt"><img src='https://ufprvirtual.ufpr.br/theme/image.php/ufprvirtual/theme_ufprvirtual/1627934520/google_play_badge_ptbr' style='height:72px'></img></a><a title="Obter o aplicativo para dispositivos móveis" href="https://apps.apple.com/br/app/ufpr-virtual/id1529174904"><img src='https://ufprvirtual.ufpr.br/theme/image.php/ufprvirtual/theme_ufprvirtual/1627934520/app_store_badge_ptbr' style='height:50px'></img></a></div></div>
+        </div>
+    </div>
+  </div>
+</div>
+
+
+  
+  <div class="footer" >
+      
+      <div class="texto_rodape large-2 medium-2" >
+              <span >
+                  <img id="image-footer" src="https://ufprvirtual.ufpr.br/theme/image.php/ufprvirtual/theme_ufprvirtual/1627934520/logo_white">
+              </span>
+  
+      </div>
+      <div class="texto_rodape large-8 medium-8">
+          <br>CIPEAD - Coordenadoria de Integração de Políticas de Educação a Distância da Universidade Federal do Paraná
+          <br>Praça Santos Andrade, 50 - Centro - Telefone:(41)3310-2657 - CEP:80.020-300 - Curitiba/PR
+      </div>
+      <div class="texto_rodape large-2 medium-2 social_media" >
+          <a href="https://www.facebook.com/Cipead-UFPR-505827566179117/" 
+              onclick="javascript:window.open('https://www.facebook.com/Cipead-UFPR-505827566179117/'); 
+              return false;">
+              <img src="https://ufprvirtual.ufpr.br/theme/image.php/ufprvirtual/theme_ufprvirtual/1627934520/facebook_logo_white" title="CIPEAD no Facebook" alt="CIPEAD no Facebook" width="45" height="45">
+          </a>
+       </div>
+    
+  </div>
+  <div id="sub-footer" class="footer" >
+      <div class="copyright texto_rodape large-2 medium-2">
+              Direitos autorais - ícones: <a href="https://www.flaticon.com/" style="color:#fff">Flat Icon</a>
+              
+              
+      </div>  
+  </div>
+
+<script>
+//<![CDATA[
+var require = {
+    baseUrl : 'https://ufprvirtual.ufpr.br/lib/requirejs.php/1627934520/',
+    // We only support AMD modules with an explicit define() statement.
+    enforceDefine: true,
+    skipDataMain: true,
+    waitSeconds : 0,
+
+    paths: {
+        jquery: 'https://ufprvirtual.ufpr.br/lib/javascript.php/1627934520/lib/jquery/jquery-3.5.1.min',
+        jqueryui: 'https://ufprvirtual.ufpr.br/lib/javascript.php/1627934520/lib/jquery/ui-1.12.1/jquery-ui.min',
+        jqueryprivate: 'https://ufprvirtual.ufpr.br/lib/javascript.php/1627934520/lib/requirejs/jquery-private'
+    },
+
+    // Custom jquery config map.
+    map: {
+      // '*' means all modules will get 'jqueryprivate'
+      // for their 'jquery' dependency.
+      '*': { jquery: 'jqueryprivate' },
+      // Stub module for 'process'. This is a workaround for a bug in MathJax (see MDL-60458).
+      '*': { process: 'core/first' },
+
+      // 'jquery-private' wants the real jQuery module
+      // though. If this line was not here, there would
+      // be an unresolvable cyclic dependency.
+      jqueryprivate: { jquery: 'jquery' }
+    }
+};
+
+//]]>
+</script>
+<script src="https://ufprvirtual.ufpr.br/lib/javascript.php/1627934520/lib/requirejs/require.min.js"></script>
+<script>
+//<![CDATA[
+M.util.js_pending("core/first");require(['core/first'], function() {
+require(['core/prefetch']);
+;
+require(["media_videojs/loader"], function(loader) {
+    loader.setUp(function(videojs) {
+        videojs.options.flash.swf = "https://ufprvirtual.ufpr.br/media/player/videojs/videojs/video-js.swf";
+videojs.addLanguage('pt-BR', {
+  "Audio Player": "Reprodutor de áudio",
+  "Video Player": "Reprodutor de vídeo",
+  "Play": "Tocar",
+  "Pause": "Pausar",
+  "Replay": "Tocar novamente",
+  "Current Time": "Tempo",
+  "Duration": "Duração",
+  "Remaining Time": "Tempo Restante",
+  "Stream Type": "Tipo de Stream",
+  "LIVE": "AO VIVO",
+  "Loaded": "Carregado",
+  "Progress": "Progresso",
+  "Progress Bar": "Barra de progresso",
+  "progress bar timing: currentTime={1} duration={2}": "{1} de {2}",
+  "Fullscreen": "Tela Cheia",
+  "Non-Fullscreen": "Tela Normal",
+  "Mute": "Mudo",
+  "Unmute": "Habilitar Som",
+  "Playback Rate": "Velocidade",
+  "Subtitles": "Legendas",
+  "subtitles off": "Sem Legendas",
+  "Captions": "Anotações",
+  "captions off": "Sem Anotações",
+  "Chapters": "Capítulos",
+  "Descriptions": "Descrições",
+  "descriptions off": "sem descrições",
+  "Audio Track": "Faixa de áudio",
+  "Volume Level": "Nível de volume",
+  "You aborted the media playback": "Você parou a execução do vídeo.",
+  "A network error caused the media download to fail part-way.": "Um erro na rede causou falha durante o download da mídia.",
+  "The media could not be loaded, either because the server or network failed or because the format is not supported.": "A mídia não pode ser carregada, por uma falha de rede ou servidor ou o formato não é suportado.",
+  "No compatible source was found for this media.": "Nenhuma fonte foi encontrada para esta mídia.",
+  "The media playback was aborted due to a corruption problem or because the media used features your browser did not support.": "A reprodução foi interrompida devido à um problema de mídia corrompida ou porque a mídia utiliza funções que seu navegador não suporta.",
+  "The media is encrypted and we do not have the keys to decrypt it.": "A mídia está criptografada e não temos as chaves para descriptografar.",
+  "Play Video": "Tocar Vídeo",
+  "Close": "Fechar",
+  "Close Modal Dialog": "Fechar Diálogo Modal",
+  "Modal Window": "Janela Modal",
+  "This is a modal window": "Isso é uma janela-modal",
+  "This modal can be closed by pressing the Escape key or activating the close button.": "Esta janela pode ser fechada pressionando a tecla de Escape.",
+  ", opens captions settings dialog": ", abre as configurações de legendas de comentários",
+  ", opens subtitles settings dialog": ", abre as configurações de legendas",
+  ", opens descriptions settings dialog": ", abre as configurações",
+  ", selected": ", selecionada",
+  "captions settings": "configurações de legendas de comentários",
+  "subtitles settings": "configurações de legendas",
+  "descriptions settings": "configurações das descrições",
+  "Text": "Texto",
+  "White": "Branco",
+  "Black": "Preto",
+  "Red": "Vermelho",
+  "Green": "Verde",
+  "Blue": "Azul",
+  "Yellow": "Amarelo",
+  "Magenta": "Magenta",
+  "Cyan": "Ciano",
+  "Background": "Plano-de-Fundo",
+  "Window": "Janela",
+  "Transparent": "Transparente",
+  "Semi-Transparent": "Semi-Transparente",
+  "Opaque": "Opaco",
+  "Font Size": "Tamanho da Fonte",
+  "Text Edge Style": "Estilo da Borda",
+  "None": "Nenhum",
+  "Raised": "Elevado",
+  "Depressed": "Acachapado",
+  "Uniform": "Uniforme",
+  "Dropshadow": "Sombra de projeção",
+  "Font Family": "Família da Fonte",
+  "Proportional Sans-Serif": "Sans-Serif(Sem serifa) Proporcional",
+  "Monospace Sans-Serif": "Sans-Serif(Sem serifa) Monoespaçada",
+  "Proportional Serif": "Serifa Proporcional",
+  "Monospace Serif": "Serifa Monoespaçada",
+  "Casual": "Casual",
+  "Script": "Script",
+  "Small Caps": "Maiúsculas Pequenas",
+  "Reset": "Redefinir",
+  "restore all settings to the default values": "restaurar todas as configurações aos valores padrão",
+  "Done": "Salvar",
+  "Caption Settings Dialog": "Caíxa-de-Diálogo das configurações de Legendas",
+  "Beginning of dialog window. Escape will cancel and close the window.": "Iniciando a Janela-de-Diálogo. Pressionar Escape irá cancelar e fechar a janela.",
+  "End of dialog window.": "Fim da Janela-de-Diálogo",
+  "{1} is loading.": "{1} está carregando."
+});
+
+    });
+});;
+
+require(['jquery', 'core/custom_interaction_events'], function($, CustomEvents) {
+    CustomEvents.define('#single_select6111e96faa15a7', [CustomEvents.events.accessibleChange]);
+    $('#single_select6111e96faa15a7').on(CustomEvents.events.accessibleChange, function() {
+        var ignore = $(this).find(':selected').attr('data-ignore');
+        if (typeof ignore === typeof undefined) {
+            $('#single_select_f6111e96faa15a6').submit();
+        }
+    });
+});
+;
+
+require(['jquery', 'message_popup/notification_popover_controller'], function($, controller) {
+    var container = $('#nav-notification-popover-container');
+    var controller = new controller(container);
+    controller.registerEventListeners();
+    controller.registerListNavigationEventListeners();
+});
+;
+
+require(
+[
+    'jquery',
+    'core_message/message_popover'
+],
+function(
+    $,
+    Popover
+) {
+    var toggle = $('#message-drawer-toggle-6111e96fb89346111e96faa15a10');
+    Popover.init(toggle);
+});
+;
+
+require(['theme_boost/loader']);
+require(['theme_boost/drawer'], function(mod) {
+    mod.init();
+});
+;
+M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function(amd) {amd.init("question-530200-5"); M.util.js_complete('qtype_multichoice/answers');});;
+M.util.js_pending('qtype_multichoice/clearchoice'); require(['qtype_multichoice/clearchoice'], function(amd) {amd.init("question-530200-5", "q530200:5_clearchoice"); M.util.js_complete('qtype_multichoice/clearchoice');});;
+M.util.js_pending('qtype_multichoice/answers'); require(['qtype_multichoice/answers'], function(amd) {amd.init("question-530200-1"); M.util.js_complete('qtype_multichoice/answers');});;
+M.util.js_pending('qtype_multichoice/clearchoice'); require(['qtype_multichoice/clearchoice'], function(amd) {amd.init("question-530200-1", "q530200:1_clearchoice"); M.util.js_complete('qtype_multichoice/clearchoice');});;
+M.util.js_pending('core/notification'); require(['core/notification'], function(amd) {amd.init(840935, [], true); M.util.js_complete('core/notification');});;
+M.util.js_pending('core/log'); require(['core/log'], function(amd) {amd.setConfig({"level":"warn"}); M.util.js_complete('core/log');});;
+M.util.js_pending('core/page_global'); require(['core/page_global'], function(amd) {amd.init(); M.util.js_complete('core/page_global');});M.util.js_complete("core/first");
+});
+//]]>
+</script>
+<script>
+//<![CDATA[
+M.str = {"moodle":{"lastmodified":"\u00daltima atualiza\u00e7\u00e3o","name":"Nome","error":"Erro","info":"Informa\u00e7\u00e3o","yes":"Sim","no":"N\u00e3o","cancel":"Cancelar","changesmadereallygoaway":"Voc\u00ea fez altera\u00e7\u00f5es. Est\u00e1 certo de que quer sair e abandonar suas altera\u00e7\u00f5es?","confirm":"Confirmar","areyousure":"Voc\u00ea tem certeza?","closebuttontitle":"Fechar","unknownerror":"Erro desconhecido","file":"Arquivo","url":"URL"},"repository":{"type":"Tipo","size":"Tamanho","invalidjson":"palavra JSON inv\u00e1lida","nofilesattached":"Nenhum arquivo anexado","filepicker":"Seletor de arquivos","logout":"Sair","nofilesavailable":"Nenhum arquivo dispon\u00edvel","norepositoriesavailable":"Desculpe, nenhum dos seus reposit\u00f3rios atuais pode retornar arquivos no formato solicitado.","fileexistsdialogheader":"Arquivo existe","fileexistsdialog_editor":"Um arquivo com este nome j\u00e1 foi anexado ao texto que voc\u00ea est\u00e1 editando.","fileexistsdialog_filemanager":"Um arquivo com este nome j\u00e1 foi anexado","renameto":"Renomear para \"{$a}\"","referencesexist":"Existem {$a} links para esse arquivo","select":"Selecione"},"admin":{"confirmdeletecomments":"Voc\u00ea est\u00e1 prestes a excluir coment\u00e1rios, tem certeza?","confirmation":"Confirma\u00e7\u00e3o"},"question":{"flagged":"Marcada"},"quiz":{"functiondisabledbysecuremode":"Esta funcionalidade est\u00e1 desativada no momento","startattempt":"Iniciar tentativa","timesup":"Acabou o tempo de dura\u00e7\u00e3o!"},"debug":{"debuginfo":"Informa\u00e7\u00f5es de depura\u00e7\u00e3o","line":"Linha","stacktrace":"Rastreamento de pilha"},"langconfig":{"labelsep":":&nbsp;"}};
+//]]>
+</script>
+<script>
+//<![CDATA[
+(function() {Y.use("moodle-filter_mathjaxloader-loader",function() {M.filter_mathjaxloader.configure({"mathjaxconfig":"MathJax.Hub.Config({\r\n    config: [\"Accessible.js\", \"Safe.js\"],\r\n    errorSettings: { message: [\"!\"] },\r\n    skipStartupTypeset: true,\r\n    messageStyle: \"none\"\r\n});\r\n","lang":"pt-br"});
+});
+Y.use("moodle-mod_quiz-autosave",function() {M.mod_quiz.autosave.init("60");
+});
+ M.util.js_pending('random6111e96faa15a1'); Y.use('core_question_flags', function(Y) { M.core_question_flags.init(Y, "https:\/\/ufprvirtual.ufpr.br\/question\/toggleflag.php", [{"src":"https:\/\/ufprvirtual.ufpr.br\/theme\/image.php\/ufprvirtual\/core\/1627934520\/i\/unflagged","title":"Marcar quest\u00e3o para refer\u00eancia futura","alt":"N\u00e3o marcada"},{"src":"https:\/\/ufprvirtual.ufpr.br\/theme\/image.php\/ufprvirtual\/core\/1627934520\/i\/flagged","title":"Remover marca\u00e7\u00e3o","alt":"Marcada"}], ["Marcar quest\u00e3o","Remover marca\u00e7\u00e3o"]);  M.util.js_complete('random6111e96faa15a1'); });
+ M.util.js_pending('random6111e96faa15a2'); Y.use('mod_quiz', function(Y) { M.mod_quiz.init_attempt_form(Y);  M.util.js_complete('random6111e96faa15a2'); });
+ M.util.js_pending('random6111e96faa15a3'); Y.use('mod_quiz', function(Y) { M.mod_quiz.timer.init(Y, 517, false);  M.util.js_complete('random6111e96faa15a3'); });
+ M.util.js_pending('random6111e96faa15a4'); Y.use('mod_quiz', function(Y) { M.mod_quiz.nav.init(Y);  M.util.js_complete('random6111e96faa15a4'); });
+M.util.help_popups.setup(Y);
+Y.use("moodle-filter_mathjaxloader-loader",function() {M.filter_mathjaxloader.typeset();
+});
+Y.use("moodle-filter_mathjaxloader-loader",function() {M.filter_mathjaxloader.typeset();
+});
+Y.use("moodle-filter_mathjaxloader-loader",function() {M.filter_mathjaxloader.typeset();
+});
+Y.use("moodle-filter_mathjaxloader-loader",function() {M.filter_mathjaxloader.typeset();
+});
+Y.use("moodle-filter_mathjaxloader-loader",function() {M.filter_mathjaxloader.typeset();
+});
+Y.use("moodle-filter_mathjaxloader-loader",function() {M.filter_mathjaxloader.typeset();
+});
+Y.use("moodle-filter_mathjaxloader-loader",function() {M.filter_mathjaxloader.typeset();
+});
+Y.use("moodle-filter_mathjaxloader-loader",function() {M.filter_mathjaxloader.typeset();
+});
+Y.use("moodle-filter_mathjaxloader-loader",function() {M.filter_mathjaxloader.typeset();
+});
+Y.use("moodle-filter_mathjaxloader-loader",function() {M.filter_mathjaxloader.typeset();
+});
+Y.use("moodle-filter_mathjaxloader-loader",function() {M.filter_mathjaxloader.typeset();
+});
+ M.util.js_pending('random6111e96faa15a20'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random6111e96faa15a20'); });
+})();
+//]]>
+</script>
+
+
+</body>
+</html>
+
