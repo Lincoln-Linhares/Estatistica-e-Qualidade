@@ -641,6 +641,9 @@ ggqqplot(mtcars, x = "mpg",
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
 
+answersaved"><div class="info"><h3 class="no">Questão <span class="qno">3</span></h3><div
+
+
 
 
 
